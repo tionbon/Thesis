@@ -7,7 +7,6 @@ from collections import defaultdict
 def repaired_data_retrieval(dir_, repaired_dir, repaired_attrib):
 	repaired_files = []
 
-	t = datetime.datetime.now()
 	identifier = dir_
 	os.makedirs(identifier)
 	
@@ -29,6 +28,46 @@ def repaired_data_retrieval(dir_, repaired_dir, repaired_attrib):
 
 		repaired_file.close()
 		repaired_files.append(repaired_file)
+
+def retrieval_and_merger(orig_file, dir_, repaired_dir, repaired_attrib):
+	repaired_files = []
+
+	identifier = dir_	
+	repair_value = 1.0
+
+	# Access original file
+	f2 = open(orig_file, 'rt')
+	orig_reader = csv.reader(f2)
+
+	# Access audited file
+	f1 = open(repaired_dir + "/{}.audit.test.repaired_{}.data".format(repaired_attrib, repair_value), 'rt')
+	repaired_reader = csv.reader(f1)
+
+	# Open new file for writing
+	repaired_file = open("{}/{}_indirect.tab".format(identifier, repaired_attrib), 'w') 
+
+	# Merge Headers
+	orig_header = next(orig_reader)
+	repaired_header = [i+'-no{}'.format(repaired_attrib) for i in next(repaired_reader)]
+	merged = [None]*(len(orig_header)+len(repaired_header))
+	merged[::2] = orig_header
+	merged[1::2] = repaired_header
+	
+	repaired_file.write("\t".join(merged)+"\n")
+	repaired_file.write("d\td\td\td\tHighschool Bachelors Masters\tHighschool Bachelors Masters\t<3 3-6 >6\t<3 3-6 >6\tlow medium high\tlow medium high\td\td\n")
+	repaired_file.write("\t\t\t\t\t\t\t\t\t\tignore\tclass\n")
+
+	# convert to tab separated file, merge and write
+	for orig_row in orig_reader:
+		repaired_row = next(repaired_reader)
+		merged = [None]*(len(orig_row)+len(repaired_row))
+		merged[::2] = orig_row
+		merged[1::2] = repaired_row
+		repaired_file.write("\t".join(merged)+"\n")
+
+	repaired_file.close()
+	repaired_files.append(repaired_file)
+
 
 def ricci_repaired_data_retrieval():
 	repaired_dir = "./Audit/audits/1487655656.76/"
@@ -61,9 +100,11 @@ if __name__ == "__main__":
 	#repaired_dir = "./Audit/audits/1487023139.65"
 	#repaired_dir = "./Audit/audits/1487655656.76/"
 	#repaired_dir = "./Audit/audits/1488339786.6" 
-	repaired_dir = "./Audit/audits/1489282159.55/"
-	#repaired_dir = "./Audit/audits/1489282271.25/"
+	#repaired_dir = "./Audit/audits/1489282159.55/"
+	repaired_dir = "./Audit/audits/1489282271.25/"
 	attrib = ["Race", "Gender"]
+	orig_file = "./Data/bonus_indirect.csv"
 	for repaired_attrib in attrib:
-		dir_ = "./Data/Bonus_Repaired_{}".format(repaired_attrib)
-		repaired_data_retrieval(dir_, repaired_dir, repaired_attrib)
+		dir_ = "./Data".format(repaired_attrib)
+		#repaired_data_retrieval(dir_, repaired_dir, repaired_attrib)
+		retrieval_and_merger(orig_file, dir_, repaired_dir, repaired_attrib)
