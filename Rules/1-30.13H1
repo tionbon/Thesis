@@ -1,0 +1,30 @@
+Rule	Class Distibution	Quality
+IF petal length<=3.0 THEN iris=Iris-setosa 	[50, 1, 0]	0.22
+IF petal length>=4.8 THEN iris=Iris-virginica 	[0.0, 6.0, 49.0]	0.2122068398029331
+IF petal length<=3.0 AND sepal width>=2.9 THEN iris=Iris-setosa 	[34.29999999999999, 0.0, 0.0]	0.2042596075938857
+IF petal width>=1.7 THEN iris=Iris-virginica 	[0.0, 1.4, 32.49999999999998]	0.19841053615376245
+IF petal length<=3.0 AND sepal width>=2.9 AND sepal length>=4.4 THEN iris=Iris-setosa 	[23.51999999999998, 0.0, 0.0]	0.17980176419241833
+IF petal length>=4.8 AND petal width>=1.8 THEN iris=Iris-virginica 	[0.0, 0.48999999999999994, 22.049999999999983]	0.1731221487420806
+IF petal length<=3.0 AND sepal width>=2.9 AND sepal width>=3.0 THEN iris=Iris-setosa 	[16.610999999999997, 0.0, 0.0]	0.15629604598660213
+IF petal length>=4.8 AND sepal width<=3.3 THEN iris=Iris-virginica 	[0.0, 3.632999999999999, 16.519999999999996]	0.14803773712854676
+IF petal length<=3.0 AND sepal width>=2.9 AND petal length>=1.1 THEN iris=Iris-setosa 	[11.730599999999997, 0.0, 0.0]	0.13295566787460625
+IF petal length>=4.8 AND petal width>=1.8 AND petal length>=4.9 THEN iris=Iris-virginica 	[0.0, 0.0, 10.838799999999997]	0.12475560767566683
+IF petal width<=1.0 THEN iris=Iris-setosa 	[9.151520000000005, 7.0, 0.0]	0.10459595287228748
+IF petal length<=4.8 THEN iris=Iris-versicolor 	[6.406064000000002, 42.3301, 1.1802]	0.10396746893598247
+IF petal width<=1.7 THEN iris=Iris-versicolor 	[4.484244799999997, 31.275999999999975, 2.4499999999999997]	0.1150476462766061
+IF petal length>=4.8 AND petal width>=1.8 AND petal length>=4.9 AND sepal length>=5.7 THEN iris=Iris-virginica 	[0.0, 0.0, 7.419090000000003]	0.15404067498277096
+IF petal length>=4.8 AND sepal length<=7.1 THEN iris=Iris-virginica 	[0.0, 1.6772699999999998, 5.398820000000001]	0.11622713906872922
+IF petal length>=4.8 AND petal length>=5.2 THEN iris=Iris-virginica 	[0.0, 0.0, 3.7932369999999995]	0.10077220294465936
+IF petal length>=4.8 AND sepal width<=3.3 AND sepal width>=2.5 THEN iris=Iris-virginica 	[0.0, 1.1740889999999997, 3.554200299999998]	0.09554157067333831
+IF petal length<=3.0 AND sepal width>=2.9 AND sepal length>=4.4 AND sepal width>=3.0 THEN iris=Iris-setosa 	[2.734162759999996, 0.0, 0.0]	0.08688185998198114
+IF petal length>=4.8 AND sepal width<=3.3 AND sepal width>=2.5 AND sepal width>=2.6 THEN iris=Iris-virginica 	[0.0, 0.6537922999999998, 2.332290582999999]	0.07144301946801193
+IF petal length>=3.0 THEN iris=Iris-versicolor 	[0.0, 21.00972460999999, 2.889008635099998]	0.0708741810790957
+IF sepal length>=5.5 THEN iris=Iris-versicolor 	[0.2017680349999999, 13.060407226999999, 1.782206044569999]	0.07584387013197909
+IF sepal width<=3.4 THEN iris=Iris-versicolor 	[1.4540023819999992, 10.788685058899999, 1.3147002011989992]	0.04990235783267848
+IF petal width<=1.0 AND petal length<=3.3 THEN iris=Iris-setosa 	[1.8219914068999992, 0.3361399999999999, 0.0]	0.13817656590766347
+IF TRUE THEN iris=Iris-versicolor 	[1.2753939848299987, 7.451237541230003, 1.093234170839299]	0.0
+IF petal length>=3.0 AND petal length<=4.8 AND sepal length>=5.0 THEN iris=Iris-versicolor 	[0.0, 5.016890054631001, 0.02768257440199998]	0.17298864287391477
+IF petal length>=3.0 AND petal width<=1.7 AND sepal length>=5.0 AND petal length<=5.0 THEN iris=Iris-versicolor 	[0.0, 3.590508536530999, 0.05764800999999997]	0.19869156874183716
+IF petal length>=3.0 AND petal length<=4.8 AND petal width<=1.7 THEN iris=Iris-versicolor 	[0.0, 2.533848196040697, 0.11764899999999995]	0.21025360795000636
+IF petal length>=3.0 AND petal width<=1.7 THEN iris=Iris-versicolor 	[0.0, 1.8638033416594884, 0.19897622422999992]	0.21618217347528743
+IF TRUE THEN iris=Iris-setosa 	[50, 50, 50]	0.0

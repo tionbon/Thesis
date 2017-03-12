@@ -1,0 +1,285 @@
+******** Data/ricci/Race_0.0.tab ********
+Rules
+IF Combine>=70.068 THEN Class=1 
+IF Combine>=70.068 AND Oral>=55.0 THEN Class=1 
+IF Combine>=70.068 AND Written!=59 THEN Class=1 
+IF Combine<=70.068 THEN Class=0 
+IF Combine>=70.068 AND Combine>=70.3 THEN Class=1 
+IF Combine>=70.068 AND Written!=64 THEN Class=1 
+IF Combine>=70.068 AND Written!=68 THEN Class=1 
+IF Combine>=70.068 AND Written!=71 THEN Class=1 
+IF Combine>=70.068 AND Written!=73 THEN Class=1 
+IF Combine>=70.068 AND Written!=79 THEN Class=1 
+IF Combine<=70.068 AND Written!=69 THEN Class=0 
+IF Combine<=70.068 AND Written!=46 THEN Class=0 
+IF Combine<=70.068 AND Written!=50 THEN Class=0 
+IF Combine<=70.068 AND Written!=53 THEN Class=0 
+IF Combine<=70.068 AND Written!=55 THEN Class=0 
+IF Combine<=70.068 AND Written!=57 THEN Class=0 
+IF Combine<=70.068 AND Written!=59 THEN Class=0 
+IF Combine<=70.068 AND Written!=61 THEN Class=0 
+IF Oral<=72.5 AND Written!=74 AND Written!=82 AND Written!=86 THEN Class=0 
+IF Written!=74 AND Written!=82 AND Written!=84 AND Written!=91 THEN Class=0 
+IF Written!=75 THEN Class=1 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.1.tab ********
+Rules
+IF Combine>=69.632 THEN Class=1 
+IF Combine>=69.632 AND Oral>=55.24 THEN Class=1 
+IF Combine>=69.632 AND Written!=60 THEN Class=1 
+IF Combine<=69.632 THEN Class=0 
+IF Combine>=69.632 AND Combine>=69.828 THEN Class=1 
+IF Combine>=69.632 AND Written!=64 THEN Class=1 
+IF Combine>=69.632 AND Written!=68 THEN Class=1 
+IF Combine>=69.632 AND Written!=71 THEN Class=1 
+IF Combine>=69.632 AND Written!=73 THEN Class=1 
+IF Combine>=69.632 AND Written!=77 THEN Class=1 
+IF Combine<=69.632 AND Written!=69 THEN Class=0 
+IF Combine<=69.632 AND Written!=49 THEN Class=0 
+IF Combine<=69.632 AND Written!=53 THEN Class=0 
+IF Combine<=69.632 AND Written!=55 THEN Class=0 
+IF Combine<=69.632 AND Written!=56 THEN Class=0 
+IF Combine<=69.632 AND Written!=60 THEN Class=0 
+IF Combine<=69.632 AND Written!=62 THEN Class=0 
+IF Combine<=69.632 AND Written!=70 THEN Class=0 
+IF Oral<=71.67 AND Written!=82 AND Written!=74 AND Written!=80 THEN Class=0 
+IF Race!=H AND Written!=65 AND Written!=59 AND Written!=57 THEN Class=1 
+IF Written!=59 AND Written!=61 THEN Class=1 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.2.tab ********
+Rules
+IF Combine>=69.22 THEN Class=1 
+IF Combine>=69.22 AND Written!=68 THEN Class=1 
+IF Combine>=69.22 AND Written!=60 THEN Class=1 
+IF Combine>=69.22 AND Written!=64 THEN Class=1 
+IF Combine>=69.22 AND Written!=72 THEN Class=1 
+IF Combine>=69.22 AND Written!=77 THEN Class=1 
+IF Combine>=69.22 AND Written!=84 THEN Class=1 
+IF Combine>=69.22 AND Written!=66 THEN Class=1 
+IF Combine>=69.22 AND Written!=71 THEN Class=1 
+IF Combine<=69.22 THEN Class=0 
+IF Combine<=69.22 AND Written!=49 THEN Class=0 
+IF Combine<=69.22 AND Written!=53 THEN Class=0 
+IF Combine<=69.22 AND Written!=56 THEN Class=0 
+IF Combine<=69.22 AND Written!=59 THEN Class=0 
+IF Combine<=69.22 AND Written!=62 THEN Class=0 
+IF Combine<=69.22 AND Written!=70 THEN Class=0 
+IF Combine<=69.22 AND Written!=77 THEN Class=0 
+IF Combine<=69.22 AND Written!=69 THEN Class=0 
+IF Oral<=70.95 AND Written!=80 AND Written!=82 AND Written!=84 THEN Class=0 
+IF Written!=58 AND Written!=65 AND Written!=68 AND Written!=67 THEN Class=1 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.3.tab ********
+Rules
+IF Combine>=69.1 THEN Class=1 
+IF Combine<=69.1 THEN Class=0 
+IF Combine>=69.1 AND Written!=68 THEN Class=1 
+IF Combine>=69.1 AND Written!=61 THEN Class=1 
+IF Combine>=69.1 AND Written!=64 THEN Class=1 
+IF Combine>=69.1 AND Written!=67 THEN Class=1 
+IF Combine>=69.1 AND Written!=69 THEN Class=1 
+IF Combine>=69.1 AND Written!=70 THEN Class=1 
+IF Combine>=69.1 AND Written!=72 THEN Class=1 
+IF Combine>=69.1 AND Written!=80 THEN Class=1 
+IF Combine<=69.1 AND Written!=50 THEN Class=0 
+IF Combine<=69.1 AND Written!=55 THEN Class=0 
+IF Combine<=69.1 AND Written!=56 THEN Class=0 
+IF Combine<=69.1 AND Written!=57 THEN Class=0 
+IF Combine<=69.1 AND Written!=70 THEN Class=0 
+IF Combine<=69.1 AND Written!=76 THEN Class=0 
+IF Combine<=69.1 AND Written!=77 THEN Class=0 
+IF Combine<=69.1 AND Written!=79 THEN Class=0 
+IF Race==W AND Written!=58 AND Written!=65 AND Written!=57 THEN Class=1 
+IF Written!=82 AND Written!=86 AND Written!=89 AND Written!=74 THEN Class=0 
+IF Written!=91 AND Written!=61 AND Written!=69 THEN Class=0 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.4.tab ********
+Rules
+IF Combine>=68.068 THEN Class=1 
+IF Combine<=68.068 THEN Class=0 
+IF Combine>=68.068 AND Race!=H THEN Class=1 
+IF Combine>=68.068 AND Written!=68 THEN Class=1 
+IF Combine>=68.068 AND Written!=62 THEN Class=1 
+IF Combine>=68.068 AND Written!=64 THEN Class=1 
+IF Combine>=68.068 AND Written!=67 THEN Class=1 
+IF Combine>=68.068 AND Written!=69 THEN Class=1 
+IF Combine>=68.068 AND Written!=73 THEN Class=1 
+IF Combine>=68.068 AND Written!=79 THEN Class=1 
+IF Combine<=68.068 AND Written!=50 THEN Class=0 
+IF Combine<=68.068 AND Written!=62 THEN Class=0 
+IF Combine<=68.068 AND Written!=70 THEN Class=0 
+IF Combine<=68.068 AND Written!=76 THEN Class=0 
+IF Combine<=68.068 AND Written!=77 THEN Class=0 
+IF Combine<=68.068 AND Written!=80 THEN Class=0 
+IF Combine<=68.068 AND Written!=57 THEN Class=0 
+IF Combine<=68.068 AND Written!=59 THEN Class=0 
+IF Written!=89 AND Written!=82 AND Written!=84 AND Oral<=70.83 THEN Class=0 
+IF Written!=89 AND Written!=82 AND Written!=84 AND Written!=81 THEN Class=0 
+IF Written!=58 AND Written!=59 AND Written!=50 THEN Class=1 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.5.tab ********
+Rules
+IF Combine>=67.232 AND Oral>=55.83 THEN Class=1 
+IF Combine>=67.232 AND Oral>=55.83 AND Race!=H THEN Class=1 
+IF Combine>=67.232 THEN Class=1 
+IF Combine>=67.232 AND Oral>=55.83 AND Written!=62 THEN Class=1 
+IF Combine>=67.232 AND Oral>=55.83 AND Written!=64 THEN Class=1 
+IF Combine>=67.232 AND Oral>=55.83 AND Written!=67 THEN Class=1 
+IF Combine>=67.232 AND Oral>=55.83 AND Written!=69 THEN Class=1 
+IF Combine>=67.232 AND Oral>=55.83 AND Written!=75 THEN Class=1 
+IF Combine<=68.2 AND Combine<=67.232 THEN Class=0 
+IF Combine<=68.2 AND Combine<=67.232 AND Written!=53 THEN Class=0 
+IF Combine>=68.2 THEN Class=1 
+IF Combine<=68.2 AND Combine<=67.232 AND Written!=58 THEN Class=0 
+IF Combine<=68.2 AND Combine<=67.232 AND Written!=69 THEN Class=0 
+IF Combine<=68.2 AND Combine<=67.232 AND Written!=70 THEN Class=0 
+IF Combine<=68.2 AND Written!=72 AND Written!=75 THEN Class=0 
+IF Combine<=68.2 AND Written!=72 THEN Class=0 
+IF Combine<=68.2 THEN Class=0 
+IF Combine<=68.2 AND Written!=75 THEN Class=0 
+IF Oral<=69.58 AND Written!=81 THEN Class=0 
+IF Written!=74 AND Written!=84 AND Written!=72 AND Written!=87 THEN Class=0 
+IF Written!=59 THEN Class=1 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.6.tab ********
+Rules
+IF Combine>=67.068 AND Oral>=55.83 THEN Class=1 
+IF Combine>=67.068 AND Oral>=55.83 AND Written!=69 THEN Class=1 
+IF Combine>=67.068 THEN Class=1 
+IF Combine>=67.068 AND Oral>=55.83 AND Written!=62 THEN Class=1 
+IF Combine>=67.068 AND Oral>=55.83 AND Written!=64 THEN Class=1 
+IF Combine>=67.068 AND Oral>=55.83 AND Written!=67 THEN Class=1 
+IF Combine>=67.068 AND Oral>=55.83 AND Written!=81 THEN Class=1 
+IF Combine>=67.068 AND Oral>=55.83 AND Written!=65 THEN Class=1 
+IF Combine>=67.068 AND Oral>=55.83 AND Written!=70 THEN Class=1 
+IF Combine>=67.068 AND Written!=69 THEN Class=1 
+IF Combine<=67.068 THEN Class=0 
+IF Combine<=67.068 AND Written!=55 THEN Class=0 
+IF Combine<=68.068 AND Combine<=67.068 AND Written!=69 THEN Class=0 
+IF Combine<=68.068 AND Combine<=67.068 AND Written!=74 THEN Class=0 
+IF Combine<=68.068 AND Combine<=67.068 AND Written!=75 THEN Class=0 
+IF Combine<=68.068 AND Written!=72 AND Written!=76 THEN Class=0 
+IF Combine<=68.068 AND Written!=72 AND Written!=76 AND Written!=74 THEN Class=0 
+IF Combine<=68.068 AND Written!=72 THEN Class=0 
+IF Written!=72 AND Combine<=68.068 AND Written!=76 AND Written!=55 THEN Class=0 
+IF Oral<=70.0 AND Written!=82 AND Written!=84 THEN Class=0 
+IF Written!=84 AND Written!=87 AND Written!=77 THEN Class=0 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.7.tab ********
+Rules
+IF Combine>=65.8 AND Race!=H AND Oral>=55.24 AND Written!=66 THEN Class=1 
+IF Combine>=65.8 AND Race!=H AND Oral>=55.24 THEN Class=1 
+IF Combine>=65.8 AND Race!=H AND Written!=66 THEN Class=1 
+IF Combine>=65.8 AND Race!=H AND Written!=66 AND Written!=81 THEN Class=1 
+IF Combine>=65.8 AND Written!=66 THEN Class=1 
+IF Combine>=65.8 THEN Class=1 
+IF Combine>=65.8 AND Written!=66 AND Written!=62 THEN Class=1 
+IF Combine>=65.8 AND Written!=66 AND Written!=67 THEN Class=1 
+IF Combine>=65.8 AND Written!=66 AND Written!=81 THEN Class=1 
+IF Combine>=65.8 AND Written!=66 AND Oral>=55.24 THEN Class=1 
+IF Combine<=67.152 AND Combine<=65.8 THEN Class=0 
+IF Combine<=67.152 AND Combine<=65.8 AND Written!=55 THEN Class=0 
+IF Combine<=67.152 AND Combine<=65.8 AND Written!=61 THEN Class=0 
+IF Combine<=67.152 AND Combine<=65.8 AND Written!=73 THEN Class=0 
+IF Combine<=67.152 AND Combine<=65.8 AND Written!=74 THEN Class=0 
+IF Combine<=67.152 AND Combine<=65.8 AND Written!=75 THEN Class=0 
+IF Combine<=67.152 THEN Class=0 
+IF Combine<=67.152 AND Written!=69 THEN Class=0 
+IF Combine<=67.152 AND Written!=74 THEN Class=0 
+IF Written!=71 AND Combine<=71.828 AND Written!=69 AND Written!=82 THEN Class=0 
+IF Written!=87 AND Written!=86 AND Written!=83 AND Written!=82 THEN Class=0 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.8.tab ********
+Rules
+IF Combine>=65.0 AND Written!=70 AND Race!=H AND Oral>=55.24 THEN Class=1 
+IF Combine>=65.0 AND Written!=70 AND Written!=81 THEN Class=1 
+IF Combine>=65.0 AND Written!=70 AND Oral>=55.24 AND Written!=68 THEN Class=1 
+IF Combine>=65.0 AND Written!=70 THEN Class=1 
+IF Combine>=65.0 AND Written!=70 AND Oral>=55.24 AND Written!=62 THEN Class=1 
+IF Combine>=65.168 AND Written!=70 AND Oral>=55.24 THEN Class=1 
+IF Combine>=65.0 AND Written!=70 AND Oral>=55.24 AND Written!=75 THEN Class=1 
+IF Combine>=65.168 AND Written!=70 THEN Class=1 
+IF Combine<=68.2 AND Combine<=65.0 THEN Class=0 
+IF Combine<=68.2 AND Combine<=65.0 AND Written!=56 THEN Class=0 
+IF Combine<=68.2 AND Combine<=65.0 AND Written!=60 THEN Class=0 
+IF Combine<=68.2 AND Combine<=65.0 AND Written!=68 THEN Class=0 
+IF Combine<=68.2 AND Combine<=65.0 AND Written!=70 THEN Class=0 
+IF Combine<=68.2 AND Written!=68 AND Oral<=73.33 AND Written!=74 THEN Class=0 
+IF Combine<=68.2 AND Written!=68 AND Oral<=73.33 THEN Class=0 
+IF Combine<=68.2 THEN Class=0 
+IF Combine<=68.2 AND Written!=74 THEN Class=0 
+IF Written!=70 AND Combine>=65.0 AND Written!=62 THEN Class=1 
+IF Combine<=68.2 AND Oral<=73.33 THEN Class=0 
+IF Written!=87 AND Written!=83 AND Written!=82 AND Written!=74 THEN Class=0 
+IF Written!=77 AND Written!=79 THEN Class=0 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_0.9.tab ********
+Rules
+IF Combine>=63.268 AND Race==W THEN Class=1 
+IF Combine>=63.268 AND Race==W AND Written!=76 THEN Class=1 
+IF Combine>=63.268 AND Race!=B THEN Class=1 
+IF Combine>=63.268 AND Race==W AND Written!=62 THEN Class=1 
+IF Combine>=63.268 AND Written!=69 AND Race!=H THEN Class=1 
+IF Combine>=63.268 AND Written!=69 THEN Class=1 
+IF Combine>=63.268 AND Race!=H THEN Class=1 
+IF Combine>=63.268 THEN Class=1 
+IF Combine>=63.268 AND Written!=69 AND Race!=H AND Written!=76 THEN Class=1 
+IF Combine>=63.268 AND Race!=B AND Written!=62 THEN Class=1 
+IF Combine<=63.268 THEN Class=0 
+IF Combine<=65.168 AND Combine<=63.268 AND Written!=56 THEN Class=0 
+IF Combine<=65.168 THEN Class=0 
+IF Combine<=65.168 AND Written!=74 THEN Class=0 
+IF Combine<=65.168 AND Written!=61 THEN Class=0 
+IF Combine<=65.168 AND Written!=64 THEN Class=0 
+IF Combine<=65.168 AND Written!=68 THEN Class=0 
+IF Combine<=65.168 AND Written!=56 THEN Class=0 
+IF Combine<=69.132 AND Written!=75 AND Written!=68 THEN Class=0 
+IF Written!=86 AND Written!=82 AND Written!=74 AND Written!=77 THEN Class=0 
+IF Written!=75 THEN Class=0 
+IF TRUE THEN Class=0 
+
+
+******** Data/ricci/Race_1.0.tab ********
+Rules
+IF Combine>=62.768 AND Oral>=58.75 THEN Class=1 
+IF Combine>=62.768 AND Written!=71 THEN Class=1 
+IF Combine>=62.768 THEN Class=1 
+IF Combine>=62.768 AND Written!=66 THEN Class=1 
+IF Combine>=62.768 AND Written!=62 THEN Class=1 
+IF Combine>=62.768 AND Written!=65 THEN Class=1 
+IF Combine>=62.768 AND Written!=66 AND Written!=62 THEN Class=1 
+IF Combine>=62.768 AND Written!=68 THEN Class=1 
+IF Combine>=62.768 AND Written!=70 THEN Class=1 
+IF Combine>=62.768 AND Written!=67 THEN Class=1 
+IF Combine<=62.768 THEN Class=0 
+IF Combine<=62.768 AND Written!=68 THEN Class=0 
+IF Combine<=62.768 AND Written!=72 THEN Class=0 
+IF Combine<=62.768 AND Written!=73 THEN Class=0 
+IF Combine<=62.768 AND Written!=70 THEN Class=0 
+IF Combine<=62.768 AND Written!=62 THEN Class=0 
+IF Combine<=62.768 AND Written!=68 AND Written!=72 THEN Class=0 
+IF Combine<=62.768 AND Written!=68 AND Written!=73 THEN Class=0 
+IF Position!=Captain AND Written!=82 THEN Class=0 
+IF Written!=82 AND Written!=86 AND Written!=74 AND Written!=76 THEN Class=0 
+IF Written!=86 AND Written!=74 THEN Class=0 
+IF TRUE THEN Class=0 
+
+

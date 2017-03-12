@@ -1,0 +1,178 @@
+******** Data/Bonus_Repaired/Race_0.0.tab ********
+Rules
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=0 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Years!=4 THEN Bonus=no 
+IF Race==B AND Years!=5 AND Years!=4 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Warnings!=6 THEN Bonus=no 
+IF Race==B AND Years!=5 AND Education!=Masters THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=2 AND Years!=5 THEN Bonus=no 
+IF Gender==F AND Years!=1 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Warnings!=2 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Years!=6 THEN Bonus=no 
+IF Warnings!=0 AND Years!=5 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 THEN Bonus=no 
+IF Warnings!=0 AND Years!=5 AND Years!=4 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Warnings!=1 THEN Bonus=no 
+IF Years!=3 AND Years!=5 AND Years!=4 THEN Bonus=no 
+IF Years!=3 AND Warnings!=6 AND Years!=4 THEN Bonus=no 
+IF Warnings!=0 AND Years!=5 AND Warnings!=4 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Warnings!=3 THEN Bonus=no 
+IF Warnings!=0 AND Years!=5 AND Warnings!=1 THEN Bonus=no 
+IF Years!=3 AND Warnings!=6 AND Warnings!=1 THEN Bonus=no 
+IF Gender==F THEN Bonus=no 
+IF Years!=3 AND Warnings!=6 THEN Bonus=no 
+IF Warnings!=0 AND Years!=5 AND Warnings!=3 THEN Bonus=no 
+IF Years!=3 AND Warnings!=6 AND Warnings!=5 THEN Bonus=no 
+IF Years!=3 AND Years!=5 THEN Bonus=no 
+IF Gender==F AND Warnings!=3 THEN Bonus=no 
+IF Years!=3 AND Warnings!=6 AND Years!=6 THEN Bonus=no 
+IF Warnings!=0 AND Years!=5 AND Years!=1 THEN Bonus=no 
+IF Years!=3 AND Warnings!=6 AND Warnings!=3 THEN Bonus=no 
+IF Years!=3 AND Years!=5 AND Warnings!=4 THEN Bonus=no 
+IF Years!=3 AND Warnings!=6 AND Years!=1 THEN Bonus=no 
+IF Education!=Masters AND Years!=5 THEN Bonus=no 
+IF Warnings!=0 AND Education!=Bachelors THEN Bonus=no 
+IF Education!=Masters AND Warnings!=6 THEN Bonus=no 
+IF Warnings!=0 AND Education!=Bachelors AND Years!=1 THEN Bonus=no 
+IF Education!=Masters AND Years!=5 AND Warnings!=3 THEN Bonus=no 
+IF Years!=3 AND Education!=Bachelors THEN Bonus=no 
+IF Education!=Masters THEN Bonus=no 
+IF Years!=3 THEN Bonus=no 
+IF Education!=Masters AND Years!=6 THEN Bonus=no 
+IF Race!=B THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.1.tab ********
+Rules
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Warnings!=6 THEN Bonus=no 
+IF Race==B AND Years!=5 AND Years!=4 THEN Bonus=no 
+IF Gender==F AND Years!=1 THEN Bonus=no 
+IF Race==B AND Years!=5 AND Education!=Masters THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Years!=4 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Warnings!=1 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Years!=6 THEN Bonus=no 
+IF Gender==F THEN Bonus=no 
+IF Gender==F AND Warnings!=3 THEN Bonus=no 
+IF Race!=B THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.2.tab ********
+Rules
+IF Gender==F AND Race==B AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Years!=1 THEN Bonus=no 
+IF Gender==F THEN Bonus=no 
+IF Gender==F AND Warnings!=3 THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.3.tab ********
+Rules
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=0 THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Years!=4 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Years!=1 THEN Bonus=no 
+IF Education!=Masters THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.4.tab ********
+Rules
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=6 THEN Bonus=no 
+IF Race==B AND Years!=5 AND Years!=4 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Warnings!=2 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Years!=6 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Warnings!=1 THEN Bonus=no 
+IF Warnings!=0 AND Years!=5 THEN Bonus=no 
+IF Warnings!=0 AND Education!=Bachelors AND Years!=1 THEN Bonus=no 
+IF Gender==F THEN Bonus=no 
+IF Gender==F AND Years!=1 THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.5.tab ********
+Rules
+IF Gender==F AND Race==B AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=0 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Years!=4 THEN Bonus=no 
+IF Education!=Masters THEN Bonus=no 
+IF Years!=3 THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.6.tab ********
+Rules
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=0 THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Years!=1 THEN Bonus=no 
+IF Race==B AND Years!=5 AND Years!=4 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Years!=4 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Warnings!=3 THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.7.tab ********
+Rules
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Years!=4 THEN Bonus=no 
+IF Gender==F AND Years!=1 THEN Bonus=no 
+IF Gender==F AND Years!=1 AND Warnings!=6 THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.8.tab ********
+Rules
+IF Gender==F AND Race==B THEN Bonus=no 
+IF Gender==F AND Race==B AND Warnings!=6 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 AND Warnings!=1 THEN Bonus=no 
+IF Warnings!=0 AND Years!=5 THEN Bonus=no 
+IF Warnings!=0 AND Warnings!=6 THEN Bonus=no 
+IF Years!=3 THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_0.9.tab ********
+Rules
+IF Warnings!=0 AND Warnings!=6 AND Warnings!=1 THEN Bonus=no 
+IF Gender==F THEN Bonus=no 
+IF Education!=Masters AND Warnings!=6 THEN Bonus=no 
+IF Gender==F AND Warnings!=3 THEN Bonus=no 
+IF Years!=3 AND Warnings!=6 AND Warnings!=1 THEN Bonus=no 
+IF Warnings!=0 AND Education!=Bachelors THEN Bonus=no 
+IF Years!=3 AND Education!=Bachelors THEN Bonus=no 
+IF Warnings!=0 AND Education!=Bachelors AND Years!=1 THEN Bonus=no 
+IF Education!=Masters THEN Bonus=no 
+IF Years!=3 THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+
+******** Data/Bonus_Repaired/Race_1.0.tab ********
+Rules
+IF Gender==F THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+IF TRUE THEN Bonus=no 
+
+

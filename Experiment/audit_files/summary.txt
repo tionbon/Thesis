@@ -1,0 +1,16 @@
+Experiment Location: /home/tionney/Documents/Thesis/Experiments/Audit/experiments/promotion/__init__.pyc
+Audit Start Time: 2017-02-28 22:43:00.426789
+Audit End Time: 2017-02-28 22:43:36.031535
+Retrained Per Repair: False
+Model Factory ID: 1488339780.67
+Model Type: Support_Vector_Machine
+Non-standard Model Options: {}
+Train Size: 2500
+Test Size: 2500
+Non-standard Ignored Features: []
+Features: ['Race', 'Gender', 'Education', 'Years', 'Warnings', 'Bonus']
+
+Ranked Features by accuracy: [('Race', 0.0), ('Gender', 0.0), ('Education', 0.0), ('Years', 0.0), ('Warnings', 0.0)]
+	Approx. Trend Groups: [['Race', 'Gender', 'Education', 'Years', 'Warnings']]
+Ranked Features by BCR: [('Race', 0.0), ('Gender', 0.0), ('Education', 0.0), ('Years', 0.0), ('Warnings', 0.0)]
+	Approx. Trend Groups: [['Race', 'Gender', 'Education', 'Years', 'Warnings']]

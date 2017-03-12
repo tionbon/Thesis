@@ -1,0 +1,43 @@
+ABOUT THE DATA:
+
+Description:
+Synthetic dataset of individuals who have recieved a bonus
+
+Size:
+5000 instances
+6 attributes: [Race, Gender, Education, Years, Warnings, Bonus]
+
+
+Desired Probabilities (Input): 
+[B = Black, W = White, M = Male, F = Female]
+P(W) = .5
+P(B) = .5
+P(M) = .5
+P(F) = .5
+P(+) = .5
+P(+|W) = .5
+P(+|B) = .5
+P(+|M) = .5
+P(+|F) = .5
+P(+|BF) = .16
+P(+|WF) = .28
+P(+|BM) = .28
+P(+|WM) = .28
+
+# probability distribution for education
+edu = ["Masters","Bachelors","Highschool"]
+P(edu) = {"Masters": .3, "Bachelors": .5, "Highschool": .2}
+P(+|edu) = {"Masters": 0.8, "Bachelors": 0.55, "Highschool": 0.3}
+
+
+# probability distribution for working 1 to 6 years
+years = [i for i in range(1,7)]
+P(year) = [.30,.25,.15,.15,.10,.05]
+P(+|year) = {1: 0.15, 2: 0.3, 3: 0.5, 4: 0.6, 5: 0.7, 6: 0.8}
+
+# probability distribution for getting 1 to 10 warning
+warnings = [i for i in range(7)]
+P(warning) = [.2,.2,.2,.15,.15,.05,.05]
+P(+|warnings) = {0: 0.8, 1: 0.7, 2: 0.6, 3: 0.4, 4: 0.2, 5: 0.1, 6: 0.1}
+
+

@@ -1,0 +1,23 @@
+Rules
+IF Combine>=70.068 THEN Class=1 
+IF Combine>=70.068 AND Oral>=55.0 THEN Class=1 
+IF Combine>=70.068 AND Written!=59 THEN Class=1 
+IF Combine<=70.068 THEN Class=0 
+IF Combine>=70.068 AND Combine>=70.3 THEN Class=1 
+IF Combine>=70.068 AND Written!=64 THEN Class=1 
+IF Combine>=70.068 AND Written!=68 THEN Class=1 
+IF Combine>=70.068 AND Written!=71 THEN Class=1 
+IF Combine>=70.068 AND Written!=73 THEN Class=1 
+IF Combine>=70.068 AND Written!=79 THEN Class=1 
+IF Combine<=70.068 AND Written!=69 THEN Class=0 
+IF Combine<=70.068 AND Written!=46 THEN Class=0 
+IF Combine<=70.068 AND Written!=50 THEN Class=0 
+IF Combine<=70.068 AND Written!=53 THEN Class=0 
+IF Combine<=70.068 AND Written!=55 THEN Class=0 
+IF Combine<=70.068 AND Written!=57 THEN Class=0 
+IF Combine<=70.068 AND Written!=59 THEN Class=0 
+IF Combine<=70.068 AND Written!=61 THEN Class=0 
+IF Oral<=72.5 AND Written!=74 AND Written!=82 AND Written!=86 THEN Class=0 
+IF Written!=74 AND Written!=82 AND Written!=84 AND Written!=91 THEN Class=0 
+IF Written!=75 THEN Class=1 
+IF TRUE THEN Class=0 

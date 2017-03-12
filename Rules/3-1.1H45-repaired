@@ -1,0 +1,147 @@
+******** Data/2-20.7H25/Race_0.0.tab ********
+Rules	Score
+IF Hours!=45 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours==40 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Write-Ups!=0 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Years!=4 THEN Promoted=N 	102
+IF Hours!=40 AND Years!=3 THEN Promoted=Y 	102
+IF Hours==40 AND Years!=4 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Hours!=45 AND Years!=4 AND Write-Ups!=4 THEN Promoted=N 	102
+IF Gender!=F AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Write-Ups==1 AND Hours!=50 AND Years!=2 THEN Promoted=Y 	102
+IF Years!=4 AND Gender==F AND Race==B THEN Promoted=N 	102
+IF Years!=1 AND Years!=3 THEN Promoted=Y 	102
+IF Hours!=45 AND Years!=4 AND Years!=2 THEN Promoted=N 	102
+IF Gender!=F AND Years!=1 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF Write-Ups!=1 AND Years!=4 THEN Promoted=N 	102
+IF Write-Ups==1 AND Hours==45 THEN Promoted=Y 	102
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=3 AND Years!=2 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=4 THEN Promoted=Y 	102
+IF Years!=4 THEN Promoted=N 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.1.tab ********
+Rules	Score
+IF Hours!=45 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours==40 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Write-Ups!=0 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Years!=4 THEN Promoted=N 	102
+IF Hours!=40 AND Years!=3 THEN Promoted=Y 	102
+IF Hours==40 AND Years!=4 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Gender!=F AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=1 AND Years!=3 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.2.tab ********
+Rules	Score
+IF Hours!=45 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours==40 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Write-Ups!=0 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Years!=4 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=1 AND Years!=3 THEN Promoted=Y 	102
+IF Years!=3 AND Years!=2 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=4 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.3.tab ********
+Rules	Score
+IF Hours!=45 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours==40 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Write-Ups!=0 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Years!=4 THEN Promoted=N 	102
+IF Hours!=40 AND Years!=3 THEN Promoted=Y 	102
+IF Hours==40 AND Years!=4 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Hours!=45 AND Years!=4 AND Write-Ups!=4 THEN Promoted=N 	102
+IF Gender!=F AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Write-Ups==1 AND Hours!=50 AND Years!=2 THEN Promoted=Y 	102
+IF Years!=4 AND Gender==F AND Race==B THEN Promoted=N 	102
+IF Years!=1 AND Years!=3 THEN Promoted=Y 	102
+IF Hours!=45 AND Years!=4 AND Years!=2 THEN Promoted=N 	102
+IF Gender!=F AND Years!=1 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF Write-Ups!=1 AND Years!=4 THEN Promoted=N 	102
+IF Write-Ups==1 AND Hours==45 THEN Promoted=Y 	102
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=3 AND Years!=2 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=4 THEN Promoted=Y 	102
+IF Years!=4 THEN Promoted=N 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.4.tab ********
+Rules	Score
+IF Hours!=45 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours==40 AND Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Write-Ups!=0 AND Years!=5 THEN Promoted=N 	102
+IF Hours!=45 AND Years!=4 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Hours!=45 AND Years!=4 AND Write-Ups!=4 THEN Promoted=N 	102
+IF Gender!=F AND Years!=1 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Write-Ups!=1 AND Years!=4 THEN Promoted=N 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=4 THEN Promoted=Y 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.5.tab ********
+Rules	Score
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Years!=4 THEN Promoted=N 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.6.tab ********
+Rules	Score
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.7.tab ********
+Rules	Score
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.8.tab ********
+Rules	Score
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF Years!=1 AND Years!=3 THEN Promoted=Y 	102
+IF Years!=1 AND Years!=2 AND Write-Ups!=2 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_0.9.tab ********
+Rules	Score
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
+******** Data/2-20.7H25/Race_1.0.tab ********
+Rules	Score
+IF Years!=4 AND Years!=5 THEN Promoted=N 	102
+IF Years!=3 AND Years!=1 AND Years!=2 THEN Promoted=Y 	102
+IF TRUE THEN Promoted=Y 	102
+IF TRUE THEN Promoted=N 	102
+
+
