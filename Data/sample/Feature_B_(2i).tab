@@ -1,0 +1,3 @@
+Feature A (i)	Feature A (i)-noFeature_B_(2i)	Feature B (2i)	Feature B (2i)-noFeature_B_(2i)	Feature C (-i)	Feature C (-i)-noFeature_B_(2i)	Constant Feature	Constant Feature-noFeature_B_(2i)	Random Feature	Random Feature-noFeature_B_(2i)	Outcome	Outcome-noFeature_B_(2i)
+c	c	c	c	c	c	c	c	c	c	d	d
+										class	ignore

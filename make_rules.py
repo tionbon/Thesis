@@ -38,7 +38,7 @@ def make_repaired_rules(orig_data, repaired_files, output, beam_width, min_cover
 
 	print("Writing original rules to file")
 	# write rules to file
-	with open("Rules/"+output+"-repaired", 'a+') as rules:
+	with open("Rules/"+output, 'a+') as rules:
 		# Create rules file from repaired data
 		rules.write("******** {} ********\n".format(orig_data))
 		rules.write("Rules\tScore\n")
@@ -99,7 +99,7 @@ def make_repaired_rules(orig_data, repaired_files, output, beam_width, min_cover
 
 	print("Writing rules to file")
 	# write rules to file
-	with open("Rules/"+output+"-repaired", 'a+') as rules:
+	with open("Rules/"+output, 'a+') as rules:
 		# Create rules file from repaired data
 		for j, repaired_file in enumerate(repaired_files):
 			rules.write("******** {} ********\n".format(repaired_file))
@@ -196,7 +196,14 @@ if __name__ == "__main__":
 
 	# Add timestamp identifier to output file
 	t = datetime.datetime.now()
-	output = "{}-{}.{}H{}".format(t.month,t.day,t.hour,t.minute)
-
+	#output = "{}-{}.{}H{}".format(t.month,t.day,t.hour,t.minute)
+	output = tag.split("-no")[-1]
 	make_repaired_rules(orig_data, repaired_files, output, beam_width, min_covered_examples, max_rule_length, scores, tag)
-	
+"""
+Constant_Feature.summary  Feature_C_(-i).summary
+Constant_Feature.tab      Feature_C_(-i).tab
+Feature_A_(i).summary     original.tab
+Feature_A_(i).tab         Random_Feature.summary
+Feature_B_(2i).summary    Random_Feature.tab
+Feature_B_(2i).tab
+"""

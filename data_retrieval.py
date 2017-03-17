@@ -188,16 +188,76 @@ def adult_retrieval_and_merger(orig_file, dir_, repaired_dir, repaired_attrib):
 	repaired_file.close()
 	repaired_files.append(repaired_file)
 
+def sample_retrieval_and_merger(orig_file, repaired_dir, repaired_attribs):
+	repair_value = 1.0
+
+	# Access original file
+	orig = open(orig_file, 'rt')
+	orig_reader = csv.reader(orig)
+
+	# Open new file for writing original data
+	orig_file = open("./Data/sample/original.tab", 'w') 
+
+	# convert original file to tab separated file 
+	orig_file.write("\t".join(next(orig_reader)) +"\n")
+	orig_file.write("d\tc\td\td\tc\td\n")
+	orig_file.write("\t\t\t\t\tclass\n")
+	for row in orig_reader:
+		orig_file.write("\t".join(row)+"\n")
+
+	orig_file.close()
+
+
+	# Process repaired files
+	for repaired_attrib in repaired_attribs:
+		# Access audited files
+		f1 = open(repaired_dir + "/{}.audit.test.repaired_{}.data".format(repaired_attrib, repair_value), 'rt')
+		repaired_reader = csv.reader(f1)
+
+		# Open new file for writing merged data
+		repaired_file = open("./Data/sample/{}.tab".format(repaired_attrib), 'w') 
+
+		# Merge Headers
+		header = next(repaired_reader)
+		repaired_header = [i+'-no{}'.format(repaired_attrib) for i in header]
+		merged = [None]*(len(header)+len(repaired_header))
+		merged[::2] = header
+		merged[1::2] = repaired_header
+		
+		repaired_file.write("\t".join(merged)+"\n")
+		repaired_file.write("c\tc\tc\tc\tc\tc\tc\tc\tc\tc\td\td\n")
+		repaired_file.write("\t\t\t\t\t\t\t\t\t\tclass\tignore\n")
+
+		# convert to tab separated file, merge and write
+		for orig_row in orig_reader:
+			repaired_row = next(repaired_reader)
+			merged = [None]*(len(orig_row)+len(repaired_row))
+			merged[::2] = orig_row
+			merged[1::2] = repaired_row
+			repaired_file.write("\t".join(merged)+"\n")
+
+	summary = open("./Data/sample/sample.summary", 'w')
+	f = open(repaired_dir + "/summary.txt", 'r')
+	for line in f:
+		if line.startswith('Ranked Features by accuracy:'):
+			ds = line.split(':')[1][1:]
+ 			summary.write(ds)
+ 			summary.close()
+
+	repaired_file.close()
+		
+
 if __name__ == "__main__":
 	#repaired_dir = "./Audit/audits/1487023139.65"
 	#repaired_dir = "./Audit/audits/1487655656.76/"
 	#repaired_dir = "./Audit/audits/1488339786.6" 
-	#repaired_dir = "./Audit/audits/1489282159.55/"
-	#repaired_dir = "./Audit/audits/1489282271.25/"
-	repaired_dir = 
-	attrib = ["Race", "Gender"]
-	orig_file = "./Audit/test_data/adult.csv"
-	for repaired_attrib in attrib:
-		dir_ = "./Data"
-		#repaired_data_retrieval(dir_, repaired_dir, repaired_attrib)
-		retrieval_and_merger(orig_file, dir_, repaired_dir, repaired_attrib)
+	#repaired_dir = "./Audit/audits/1489282159.55/" # direct
+	#repaired_dir = "./Audit/audits/1489282271.25/" # indirect
+	repaired_dir = "./Audit/audits/1489762753.74/" # sample 
+	#attrib = ["Race", "Gender"]
+	attribs = ['Feature_A_(i)', 'Feature_B_(2i)', 'Feature_C_(-i)', 'Random_Feature', 'Constant_Feature'] 
+	#orig_file = "./Audit/test_data/adult.csv"
+	orig_file = repaired_dir+"Feature_A_(i).audit.test.repaired_0.0.data"
+	#dir_ = "./Data"
+	#repaired_data_retrieval(dir_, repaired_dir, repaired_attrib)
+	sample_retrieval_and_merger(orig_file, repaired_dir, attribs)
