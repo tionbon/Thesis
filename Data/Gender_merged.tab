@@ -1,6 +1,6 @@
 Race	Race-noGender	Gender	Gender-noGender	Education	Education-noGender	Years	Years-noGender	Warnings	Warnings-noGender	Bonus	Bonus-noGender
 d	d	d	d	Highschool Bachelors Masters	Highschool Bachelors Masters	<3 3-6 >6	<3 3-6 >6	low medium high	low medium high	d	d
-										ignore	class
+										class	ignore
 B	B	F	F	Highschool	Bachelors	>6	<3	high	low	no	no
 B	W	M	F	Masters	Bachelors	<3	3-6	high	medium	yes	yes
 B	W	F	F	Bachelors	Bachelors	>6	>6	low	high	no	no

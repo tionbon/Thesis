@@ -1,0 +1,57 @@
+******** Data/Gender_merged.tab ********
+Rules
+IF Race-noGender==B AND Education!=Highschool AND Education-noGender!=Masters THEN Bonus-noGender=no 
+IF Warnings!=high AND Education!=Bachelors THEN Bonus-noGender=no 
+IF Warnings!=high AND Education!=Bachelors AND Years!=<3 THEN Bonus-noGender=no 
+IF Race-noGender==B AND Education-noGender!=Masters THEN Bonus-noGender=no 
+IF Race-noGender==B THEN Bonus-noGender=no 
+IF Warnings-noGender==medium AND Education-noGender!=Masters THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors AND Warnings-noGender!=medium AND Gender!=F THEN Bonus-noGender=no 
+IF Race==B AND Years-noGender!=3-6 AND Years!=3-6 THEN Bonus-noGender=no 
+IF Years==>6 AND Warnings-noGender!=medium AND Education-noGender!=Bachelors THEN Bonus-noGender=no 
+IF Education!=Bachelors AND Warnings-noGender!=low AND Education-noGender!=Masters THEN Bonus-noGender=no 
+IF Race-noGender==B AND Warnings!=high THEN Bonus-noGender=no 
+IF Education!=Bachelors AND Warnings!=high AND Years-noGender!=3-6 THEN Bonus-noGender=no 
+IF Education-noGender==Highschool AND Warnings-noGender!=high THEN Bonus-noGender=no 
+IF Warnings-noGender!=low AND Warnings!=low AND Years-noGender!=<3 THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors AND Years-noGender!=<3 AND Warnings-noGender!=medium THEN Bonus-noGender=no 
+IF Warnings-noGender!=low AND Education-noGender!=Masters AND Years!=<3 THEN Bonus-noGender=no 
+IF Race==B AND Years-noGender!=3-6 THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors AND Years-noGender!=<3 AND Warnings!=low THEN Bonus-noGender=no 
+IF Education!=Bachelors AND Warnings!=high AND Education-noGender!=Highschool THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors AND Warnings-noGender==low THEN Bonus-noGender=no 
+IF Race-noGender==B AND Years!=<3 THEN Bonus-noGender=no 
+IF Warnings-noGender!=low AND Education!=Bachelors THEN Bonus-noGender=no 
+IF Race==B AND Years-noGender!=3-6 AND Education!=Masters THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors AND Warnings-noGender!=medium THEN Bonus-noGender=no 
+IF Warnings-noGender!=low AND Education-noGender!=Masters AND Years-noGender!=>6 THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors THEN Bonus-noGender=no 
+IF Warnings-noGender!=low AND Years-noGender!=>6 THEN Bonus-noGender=no 
+IF Warnings-noGender!=low AND Warnings!=low THEN Bonus-noGender=no 
+IF Years-noGender==<3 THEN Bonus-noGender=no 
+IF Race-noGender==B AND Years-noGender!=<3 THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors AND Warnings!=low THEN Bonus-noGender=no 
+IF Education!=Bachelors AND Warnings!=high AND Gender==F THEN Bonus-noGender=no 
+IF Education!=Masters AND Warnings!=low AND Years!=>6 THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors AND Years-noGender!=>6 THEN Bonus-noGender=no 
+IF Years-noGender!=3-6 AND Education!=Bachelors THEN Bonus-noGender=no 
+IF Warnings-noGender!=low AND Years-noGender!=>6 AND Education-noGender!=Highschool THEN Bonus-noGender=no 
+IF Years-noGender!=3-6 AND Warnings!=low THEN Bonus-noGender=no 
+IF Race-noGender==B AND Education-noGender!=Highschool THEN Bonus-noGender=no 
+IF Years!=>6 AND Education!=Masters AND Years-noGender!=>6 THEN Bonus-noGender=no 
+IF Years-noGender!=3-6 AND Years!=<3 AND Warnings-noGender!=medium THEN Bonus-noGender=no 
+IF Warnings==low AND Years-noGender!=>6 THEN Bonus-noGender=no 
+IF Education-noGender!=Bachelors AND Years-noGender!=<3 THEN Bonus-noGender=no 
+IF Warnings-noGender==low AND Years-noGender==3-6 AND Race-noGender!=B THEN Bonus-noGender=yes 
+IF Years-noGender!=3-6 AND Warnings!=low AND Education-noGender!=Highschool THEN Bonus-noGender=no 
+IF Years-noGender!=3-6 AND Years!=<3 AND Education-noGender!=Masters THEN Bonus-noGender=no 
+IF Education!=Masters AND Years-noGender!=>6 AND Warnings!=medium THEN Bonus-noGender=no 
+IF Warnings-noGender!=low THEN Bonus-noGender=no 
+IF Years-noGender!=3-6 AND Warnings-noGender!=high THEN Bonus-noGender=no 
+IF Years!=>6 AND Education!=Masters THEN Bonus-noGender=no 
+IF Race-noGender!=B AND Years-noGender==3-6 AND Education-noGender==Bachelors THEN Bonus-noGender=yes 
+IF Years-noGender!=3-6 THEN Bonus-noGender=no 
+IF Warnings-noGender!=medium AND Education-noGender==Bachelors AND Race-noGender!=B THEN Bonus-noGender=yes 
+IF Education!=Masters THEN Bonus-noGender=no 
+IF TRUE THEN Bonus-noGender=no 
+IF TRUE THEN Bonus-noGender=no 

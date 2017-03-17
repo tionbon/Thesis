@@ -1,0 +1,134 @@
+******** ./Data/bonus_indirect.tab ********
+Rules	Score
+IF Education!=Highschool AND Gender==F THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Race!=B THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Warnings!=high THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Warnings!=low AND Years!=>6 THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Warnings!=low THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Warnings!=medium AND Years!=3-6 THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Warnings!=medium THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Years!=3-6 THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Years!=<3 AND Warnings!=high THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Years!=<3 AND Warnings!=low THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Years!=<3 THEN Bonus=yes 	0
+
+
+IF Education!=Highschool AND Years!=>6 THEN Bonus=yes 	0
+
+
+IF Education!=Highschool THEN Bonus=yes 	0
+
+
+IF Education!=Masters AND Gender!=F THEN Bonus=no 	0
+
+
+IF Education!=Masters AND Warnings!=high THEN Bonus=no 	0
+
+
+IF Education!=Masters AND Warnings!=low THEN Bonus=no 	0
+
+
+IF Education!=Masters AND Warnings!=medium THEN Bonus=no 	0
+
+
+IF Education!=Masters AND Years!=3-6 THEN Bonus=no 	0
+
+
+IF Education!=Masters AND Years!=<3 THEN Bonus=no 	0
+
+
+IF Education!=Masters AND Years!=>6 THEN Bonus=no 	0
+
+
+IF Education!=Masters THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Gender!=F THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Race==B THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Warnings!=high THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Warnings!=low THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Warnings!=medium THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Years!=3-6 THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Years!=<3 AND Warnings!=high THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Years!=<3 AND Warnings!=low THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Years!=<3 AND Warnings!=medium THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Years!=<3 THEN Bonus=no 	0
+
+
+IF Education==Highschool AND Years!=>6 THEN Bonus=no 	0
+
+
+IF Education==Highschool THEN Bonus=no 	0
+
+
+IF Education==Masters AND Warnings!=high THEN Bonus=yes 	0
+
+
+IF Education==Masters AND Warnings!=medium THEN Bonus=yes 	0
+
+
+IF Education==Masters AND Years!=3-6 THEN Bonus=yes 	0
+
+
+IF Education==Masters AND Years!=<3 THEN Bonus=yes 	0
+
+
+IF Education==Masters AND Years!=>6 THEN Bonus=yes 	0
+
+
+IF Education==Masters THEN Bonus=yes 	0
+
+
+IF Gender==F THEN Bonus=yes 	0
+
+
+IF Race!=B THEN Bonus=yes 	0
+
+
+IF TRUE THEN Bonus=yes 	0
+
+
+IF TRUE THEN Bonus=yes 	0
+
+
+IF Years!=<3 THEN Bonus=yes 	0
+
+

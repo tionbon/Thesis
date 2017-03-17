@@ -1,0 +1,12 @@
+******** ./Data/bonus_indirect.tab ********
+Rules	Score
+IF TRUE THEN Bonus=yes 	[1]
+IF TRUE THEN Bonus=yes 	[1]
+
+
+******** ./Data/Gender_indirect.tab ********
+Rules	Score
+IF TRUE THEN Bonus=yes 	[1]
+IF TRUE THEN Bonus=yes 	[1]
+
+
