@@ -1,0 +1,63 @@
+******** Data/sample/original.tab ********
+Rules	Score
+IF Feature A (i)<=3000.0 THEN Outcome=A 	0.49750000000000005
+IF Feature A (i)>=3000.0 AND Feature A (i)>=3001.0 AND Feature A (i)>=3002.0 THEN Outcome=B 	1.4925000000000002
+IF Feature A (i)>=3000.0 AND Feature A (i)>=3001.0 AND Feature C (-i)>=-5998.0 THEN Outcome=B 	1.4925000000000002
+IF Feature A (i)>=3000.0 AND Feature A (i)>=3001.0 AND Random Feature>=0.000843360981229 THEN Outcome=B 	1.0155000000000003
+IF Feature A (i)>=3000.0 AND Feature A (i)>=3001.0 THEN Outcome=B 	0.9950000000000001
+IF Feature A (i)>=3000.0 AND Feature C (-i)>=-5998.0 AND Feature C (-i)>=-5997.0 THEN Outcome=B 	1.4925000000000002
+IF Feature A (i)>=3000.0 AND Feature C (-i)>=-5998.0 AND Random Feature>=0.000843360981229 THEN Outcome=B 	1.0155000000000003
+IF Feature A (i)>=3000.0 AND Feature C (-i)>=-5998.0 THEN Outcome=B 	0.9950000000000001
+IF Feature A (i)>=3000.0 AND Random Feature>=0.000843360981229 AND Random Feature>=0.00102047857195 THEN Outcome=B 	0.5385000000000002
+IF Feature A (i)>=3000.0 AND Random Feature>=0.000843360981229 THEN Outcome=B 	0.5180000000000001
+IF Feature A (i)>=3000.0 THEN Outcome=B 	0.49750000000000005
+IF Feature C (-i)<=-2999.0 AND Random Feature<=0.764965795611 AND Feature A (i)>=3000.0 THEN Outcome=B 	1.0155000000000003
+IF Feature C (-i)<=-2999.0 THEN Outcome=B 	0.49750000000000005
+IF Feature C (-i)>=-2999.0 AND Feature A (i)>=1.0 AND Feature A (i)>=2.0 THEN Outcome=A 	1.4925000000000002
+IF Feature C (-i)>=-2999.0 AND Feature A (i)>=1.0 AND Random Feature>=0.000187988357063 THEN Outcome=A 	1.0155000000000003
+IF Feature C (-i)>=-2999.0 AND Feature A (i)>=1.0 THEN Outcome=A 	0.9950000000000001
+IF Feature C (-i)>=-2999.0 AND Feature C (-i)>=-2998.0 AND Feature A (i)>=1.0 THEN Outcome=A 	1.4925000000000002
+IF Feature C (-i)>=-2999.0 AND Feature C (-i)>=-2998.0 AND Feature C (-i)>=-2997.0 THEN Outcome=A 	1.4925000000000002
+IF Feature C (-i)>=-2999.0 AND Feature C (-i)>=-2998.0 AND Random Feature>=0.000187988357063 THEN Outcome=A 	1.0155000000000003
+IF Feature C (-i)>=-2999.0 AND Feature C (-i)>=-2998.0 THEN Outcome=A 	0.9950000000000001
+IF Feature C (-i)>=-2999.0 AND Random Feature>=0.000187988357063 AND Random Feature>=0.000246819945838 THEN Outcome=A 	0.5385000000000002
+IF Feature C (-i)>=-2999.0 AND Random Feature>=0.000187988357063 THEN Outcome=A 	0.5180000000000001
+IF Feature C (-i)>=-2999.0 THEN Outcome=A 	0.49750000000000005
+IF Random Feature<=0.773489721083 AND Feature C (-i)>=-2999.0 THEN Outcome=A 	0.5180000000000001
+IF Random Feature>=0.000184547662703 AND Feature A (i)<=3000.0 THEN Outcome=A 	0.5180000000000001
+IF Random Feature>=0.000184547662703 AND Random Feature>=0.00477810282461 AND Feature A (i)>=3000.0 THEN Outcome=B 	0.5385000000000002
+IF Random Feature>=0.000184547662703 AND Random Feature>=0.00477810282461 AND Random Feature>=0.144707358822 THEN Outcome=A 	0.06150000000000022
+IF Random Feature>=0.000184547662703 AND Random Feature>=0.00477810282461 THEN Outcome=A 	0.04100000000000015
+IF Random Feature>=0.229932668429 AND Feature A (i)>=3000.0 THEN Outcome=B 	0.5180000000000001
+IF Random Feature>=0.294412589364 AND Feature C (-i)>=-2999.0 THEN Outcome=A 	0.5180000000000001
+IF TRUE THEN Outcome=B 	0.0
+
+
+******** Data/sample/Feature_B_(2i).tab ********
+Rules	Score
+IF Feature A (i)-noFeature_B_(2i)<=3003.0 AND Random Feature-noFeature_B_(2i)<=0.667634531255 AND Feature C (-i)-noFeature_B_(2i)>=-2992.0 THEN Outcome=A 	0.0
+IF Feature A (i)-noFeature_B_(2i)<=3003.0 AND Random Feature-noFeature_B_(2i)<=0.667634531255 AND Random Feature-noFeature_B_(2i)>=0.204791495343 THEN Outcome=A 	0.0
+IF Feature A (i)-noFeature_B_(2i)<=3003.0 AND Random Feature-noFeature_B_(2i)<=0.667634531255 THEN Outcome=A 	0.0
+IF Feature A (i)-noFeature_B_(2i)<=3003.0 AND Random Feature-noFeature_B_(2i)>=0.667634531255 THEN Outcome=B 	0.0
+IF Feature A (i)-noFeature_B_(2i)<=3281.0 AND Feature C (-i)-noFeature_B_(2i)>=-3183.0 THEN Outcome=A 	0.0
+IF Feature A (i)-noFeature_B_(2i)>=3003.0 AND Random Feature-noFeature_B_(2i)<=0.667634531255 AND Feature C (-i)-noFeature_B_(2i)>=-3293.0 THEN Outcome=B 	0.0
+IF Feature A (i)-noFeature_B_(2i)>=3003.0 AND Random Feature-noFeature_B_(2i)<=0.686568700093 AND Feature C (-i)-noFeature_B_(2i)>=-3293.0 THEN Outcome=B 	0.0
+IF Feature A (i)-noFeature_B_(2i)>=3003.0 AND Random Feature-noFeature_B_(2i)>=0.0466369262216 AND Random Feature-noFeature_B_(2i)<=0.505784324518 THEN Outcome=B 	0.0
+IF Feature A (i)-noFeature_B_(2i)>=3003.0 AND Random Feature-noFeature_B_(2i)>=0.505784324518 AND Feature A (i)-noFeature_B_(2i)>=3026.0 THEN Outcome=A 	0.0
+IF Feature A (i)-noFeature_B_(2i)>=3292.0 AND Feature C (-i)-noFeature_B_(2i)>=-3293.0 AND Random Feature-noFeature_B_(2i)>=0.573812859687 THEN Outcome=A 	0.0
+IF Feature C (-i)-noFeature_B_(2i)>=-2998.0 AND Random Feature-noFeature_B_(2i)<=0.667634531255 THEN Outcome=A 	0.0
+IF Feature C (-i)-noFeature_B_(2i)>=-3120.0 AND Feature A (i)-noFeature_B_(2i)>=3090.0 AND Random Feature-noFeature_B_(2i)>=0.686568700093 THEN Outcome=A 	0.0
+IF Feature C (-i)-noFeature_B_(2i)>=-3282.0 AND Feature A (i)-noFeature_B_(2i)>=3188.0 AND Feature A (i)-noFeature_B_(2i)<=3263.0 THEN Outcome=B 	0.0
+IF Feature C (-i)-noFeature_B_(2i)>=-3282.0 AND Random Feature-noFeature_B_(2i)<=0.97083359912 AND Feature A (i)-noFeature_B_(2i)>=3113.0 THEN Outcome=B 	0.0
+IF Feature C (-i)-noFeature_B_(2i)>=-3287.0 AND Feature A (i)-noFeature_B_(2i)<=3217.0 AND Random Feature-noFeature_B_(2i)>=0.775210546754 THEN Outcome=A 	0.0
+IF Feature C (-i)-noFeature_B_(2i)>=-3287.0 AND Feature A (i)-noFeature_B_(2i)>=3125.0 AND Feature C (-i)-noFeature_B_(2i)>=-3241.0 THEN Outcome=B 	0.0
+IF Feature C (-i)-noFeature_B_(2i)>=-3287.0 AND Feature A (i)-noFeature_B_(2i)>=3125.0 THEN Outcome=B 	0.0
+IF Feature C (-i)-noFeature_B_(2i)>=-3287.0 AND Feature A (i)-noFeature_B_(2i)>=3165.0 AND Feature C (-i)-noFeature_B_(2i)>=-3258.0 THEN Outcome=B 	0.0
+IF Random Feature-noFeature_B_(2i)<=0.0657541093586 AND Random Feature-noFeature_B_(2i)>=0.0254033719226 AND Random Feature-noFeature_B_(2i)<=0.0466369262216 THEN Outcome=A 	0.0
+IF Random Feature-noFeature_B_(2i)<=0.0657541093586 THEN Outcome=A 	0.0
+IF Random Feature-noFeature_B_(2i)<=0.97083359912 AND Feature A (i)-noFeature_B_(2i)<=3015.0 AND Random Feature-noFeature_B_(2i)<=0.667634531255 THEN Outcome=A 	0.0
+IF Random Feature-noFeature_B_(2i)>=0.0657541093586 AND Random Feature-noFeature_B_(2i)<=0.97083359912 AND Feature A (i)-noFeature_B_(2i)>=3015.0 THEN Outcome=B 	0.0
+IF Random Feature-noFeature_B_(2i)>=0.0657541093586 AND Random Feature-noFeature_B_(2i)>=0.97083359912 AND Feature A (i)-noFeature_B_(2i)>=2980.0 THEN Outcome=A 	0.0
+IF TRUE THEN Outcome=B 	0.0
+
+

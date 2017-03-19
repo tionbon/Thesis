@@ -38,7 +38,7 @@ def make_repaired_rules(orig_data, repaired_files, output, beam_width, min_cover
 
 	print("Writing original rules to file")
 	# write rules to file
-	with open("Rules/"+output, 'a+') as rules:
+	with open("Rules/"+output, 'w') as rules:
 		# Create rules file from repaired data
 		rules.write("******** {} ********\n".format(orig_data))
 		rules.write("Rules\tScore\n")
@@ -73,11 +73,11 @@ def make_repaired_rules(orig_data, repaired_files, output, beam_width, min_cover
 		learner_repaired.rule_finder.general_validator.max_rule_length = max_rule_length
 
 		# filter rule list for repaired data
-		learner_repaired.filter = True
+		learner_repaired.filter = False
 		learner_repaired.rule_filter = classifier_orig.rule_list
 		learner_repaired.tag = tag
 
-		learner_repaired.rule_finder.weighted_rules = True
+		learner_repaired.rule_finder.weighted_rules = False
 		learner_repaired.rule_finder.scores = scores
 
 		# Produce rules for Repaired Data
@@ -123,7 +123,124 @@ def make_repaired_rules(orig_data, repaired_files, output, beam_width, min_cover
 	log.close()
 
 	# Open files
-	os.system('xdg-open Rules/'+output+"-repaired")
+	os.system('xdg-open Rules/'+output)
+
+def make_repaired_rules_cn2(orig_data, repaired_files, output, beam_width, min_covered_examples, max_rule_length, scores, tag, filter_switch):
+	print("Learning rules from unrepaired file")
+	# format data for classification
+	original_data = Orange.data.Table.from_file(orig_data)
+	# set the learner
+	learner_orig = Orange.classification.rules.CN2UnorderedLearner()
+	# set the number of solution steams considered at one time
+	learner_orig.rule_finder.search_algorithm.beam_width = beam_width
+	# continuous value space is constrained to reduce computation time
+	learner_orig.rule_finder.search_strategy.constrain_continuous = True
+	# set the minimum number of examples a found rule must cover to be considered
+	learner_orig.rule_finder.general_validator.min_covered_examples = min_covered_examples
+	# set the maximum number of selectors (conditions) found rules may combine
+	learner_orig.rule_finder.general_validator.max_rule_length = max_rule_length
+	# Calculate discrimination score
+	learner_orig.rule_finder.scores = scores
+
+	# produce rules from unrepaired data
+	classifier_orig = learner_orig(original_data)
+	
+	print("Setting initial counts")
+	# Set initial rule counts
+	rule_counts = {}
+	og_rulelist = classifier_orig.rule_list
+	for id, rule in enumerate(og_rulelist):
+		rule.ID = id
+		rule_counts[rule.ID] = 0 
+
+	print("Writing original rules to file")
+	# write rules to file
+	with open("Rules/"+output+"-cn2", 'w') as rules:
+		# Create rules file from repaired data
+		rules.write("******** {} ********\n".format(orig_data))
+		rules.write("Rules\tScore\n")
+		rl = []
+		for rule in classifier_orig.rule_list:
+			rl.append((str(rule), rule.score))
+
+		#rl.sort(key=lambda x: x[0])
+		for rule in rl:
+			#rules.write("{}\t{}\n".format(rule, [rule_counts[rule.ID]]))
+			rules.write("{}\t{}\n".format(rule[0], rule[1]))
+		rules.write("\n\n")
+	rules.close()	
+
+	# store rules for each interations
+	i = 0
+	rules_produced = {}
+	print("Beginning learning process for repaired files")
+	for repaired_file in repaired_files:
+		print("Learning rules for {}".format(repaired_file))
+		# format data for classification
+		repaired_data = Orange.data.Table.from_file(repaired_file)
+		# set the learner
+		learner_repaired = Orange.classification.rules.CN2Learner()
+		# set the number of solution steams considered at one time
+		learner_repaired.rule_finder.search_algorithm.beam_width = beam_width
+		# continuous value space is constrained to reduce computation time
+		learner_repaired.rule_finder.search_strategy.constrain_continuous = True
+		# set the minimum number of examples a found rule must cover to be considered
+		learner_repaired.rule_finder.general_validator.min_covered_examples = min_covered_examples
+		# set the maximum number of selectors (conditions) found rules may combine
+		learner_repaired.rule_finder.general_validator.max_rule_length = max_rule_length
+
+		# filter rule list for repaired data
+		learner_repaired.filter = filter_switch
+		learner_repaired.rule_filter = classifier_orig.rule_list
+		learner_repaired.tag = tag
+
+		learner_repaired.rule_finder.weighted_rules = filter_switch
+		learner_repaired.rule_finder.scores = scores
+
+		# Produce rules for Repaired Data
+		classifier_repaired = learner_repaired(repaired_data)
+
+		if False:
+			for rule in classifier_repaired.rule_list:
+				for og_rule in og_rulelist:
+					#if rule.equals(og_rule):
+					#	rule.ID = og_rule.ID
+					if rule.equals(og_rule):
+						rule.ID = og_rule.ID
+				rule_counts[rule.ID] = i
+			print("Rules produced for {} and rule scores updated".format(repaired_file))
+
+		# Save rules from this iteration
+		rules_produced[i] = classifier_repaired.rule_list
+		i += 1
+
+	print("Writing rules to file")
+	# write rules to file
+	with open("Rules/"+output+"-cn2", 'a+') as rules:
+		# Create rules file from repaired data
+		for j, repaired_file in enumerate(repaired_files):
+			rules.write("******** {} ********\n".format(repaired_file))
+			rules.write("Rules\tScore\n")
+			rl = []
+			for rule in rules_produced[j]:
+				rl.append((str(rule), rule.score))
+			rl.sort(key=lambda x: x[0])
+			for rule in rl:
+				#rules.write("{}\t{}\n".format(rule, [rule_counts[rule.ID]]))
+				rules.write("{}\t{}\n".format(rule[0], rule[1]))
+
+			rules.write("\n\n")
+	rules.close()	
+
+	# Update log file
+	t = datetime.datetime.now()
+	log = open("log.txt", 'a')
+	log.write("{}-{}-{} {}:{}:{}\n".format(t.year,t.month,t.day,t.hour,t.minute,t.second))
+	log.write("Data: {}\tBeam Width: {}\tmin_covered_examples: {}\t max_rule_length: {}\n".format(orig_data, beam_width, min_covered_examples, max_rule_length))
+	log.close()
+
+	# Open files
+	os.system('xdg-open Rules/'+output+"-cn2")
 
 def make_rules(file, output, beam_width, min_covered_examples, max_rule_length):
 	print("Learning rules from file")
@@ -165,7 +282,7 @@ def make_rules(file, output, beam_width, min_covered_examples, max_rule_length):
 
 if __name__ == "__main__":
 	if len(sys.argv) == 1:
-		print("make_rules.py: <original data> <repaired data> <beam width> <minimum covered examples> <maximum rule length> <summary file>\n")
+		print("make_rules.py: <original data> <repaired data> <output> <beam width> <minimum covered examples> <maximum rule length> <summary file> <filter: T or F?>\n")
 
 		if len(sys.argv) > 1 and sys.argv[1] == '-dir':
 			for dataset in os.listdir(path_to_datatables):
@@ -175,13 +292,14 @@ if __name__ == "__main__":
 	
 	orig_data = sys.argv[1]
 	repaired_data = sys.argv[2]
-	beam_width = int(sys.argv[3])
-	min_covered_examples = int(sys.argv[4])
-	max_rule_length = int(sys.argv[5])
+	output = sys.argv[3]
+	beam_width = int(sys.argv[4])
+	min_covered_examples = int(sys.argv[5])
+	max_rule_length = int(sys.argv[6])
 
 	# convert score
-	summary = sys.argv[6]
-	tag = sys.argv[7]
+	summary = sys.argv[7]
+	tag = sys.argv[8]
 	f = open(summary, 'r')
 	scores_data = ast.literal_eval(f.readline())
 	scores = {}
@@ -194,11 +312,11 @@ if __name__ == "__main__":
 	else:
 		repaired_files = [repaired_data]
 
+	filter_switch = True if sys.argv[9] == "True" else False
 	# Add timestamp identifier to output file
 	t = datetime.datetime.now()
 	#output = "{}-{}.{}H{}".format(t.month,t.day,t.hour,t.minute)
-	output = tag.split("-no")[-1]
-	make_repaired_rules(orig_data, repaired_files, output, beam_width, min_covered_examples, max_rule_length, scores, tag)
+	make_repaired_rules_cn2(orig_data, repaired_files, output, beam_width, min_covered_examples, max_rule_length, scores, tag, filter_switch)
 """
 Constant_Feature.summary  Feature_C_(-i).summary
 Constant_Feature.tab      Feature_C_(-i).tab
