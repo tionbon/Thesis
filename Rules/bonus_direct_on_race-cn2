@@ -1,0 +1,3 @@
+******** Data/bonus.tab ********
+Label	Rules	Quality	Score
+0	IF Gender==F AND Race==B AND Education==Highschool THEN Bonus=no 	0.8459715639810427	0.0

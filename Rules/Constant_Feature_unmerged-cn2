@@ -2,7 +2,7 @@
 Rules	Score
 IF Feature C (-i)>=-2999.0 THEN Outcome=A 	0.49750000000000005
 IF Feature A (i)>=3000.0 THEN Outcome=B 	0.49750000000000005
-IF TRUE THEN Outcome=B 	0.0
+IF TRUE THEN Outcome=A 	0.0
 
 
 ******** Data/sample/Constant_Feature_unmerged.tab ********

@@ -2,7 +2,7 @@
 Rules	Score
 IF Feature C (-i)>=-2999.0 THEN Outcome=A 	0.49750000000000005
 IF Feature A (i)>=3000.0 THEN Outcome=B 	0.49750000000000005
-IF TRUE THEN Outcome=A 	0.0
+IF TRUE THEN Outcome=B 	0.0
 
 
 ******** Data/sample/Feature_A_(i)_unmerged.tab ********
@@ -106,6 +106,6 @@ IF Random Feature>=0.915580483429 AND Feature C (-i)<=-3137.0 AND Random Feature
 IF Random Feature>=0.915580483429 AND Feature C (-i)>=-3114.0 AND Feature C (-i)>=-3073.0 THEN Outcome=A 	1.0155000000000003
 IF Random Feature>=0.97083359912 AND Feature C (-i)>=-3276.0 AND Feature B (2i)>=6376.0 THEN Outcome=B 	1.0155000000000003
 IF Random Feature>=0.986727796352 AND Feature B (2i)>=6168.0 THEN Outcome=A 	0.5180000000000001
-IF TRUE THEN Outcome=A 	0.0
+IF TRUE THEN Outcome=B 	0.0
 
 

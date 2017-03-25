@@ -48,8 +48,8 @@ p_pos = .5
 
 
 # Start Script
-fname = "Data/bonus.csv"
-size = 5000
+fname = "Data/bonus_small.csv"
+size = 50
 # create file for writing
 dataset = csv.writer(open(fname, 'w'))
 # add header to dataset
@@ -106,13 +106,10 @@ for i in range(size):
 	p_year_given_neg = [1-p for p in p_year_given_pos]
 	year = [str(num) for num in np.random.choice(years,1,p_year_given_pos if class_col[i]=='yes' else p_year_given_neg)]
 
-
 	# P(some_num_warnings|+) = (P(+|num_warning)*P(num_warnings))/P(+)
 	p_warnings_given_pos = [(p_pos_given_warnings[w]*p_warnings[w])/float(p_pos) for w in warnings]
 	p_warnings_given_neg = [1-p for p in p_warnings_given_pos]
 	warning = [str(num) for num in np.random.choice(warnings,1,p_warnings_given_pos if class_col[i]=='yes' else p_warnings_given_neg)]
-
-	
 
 	# P(some_num_edu|+) = (P(+|num_warning)*P(num_warnings))/P(+)
 	p_edu_given_pos = [(p_pos_given_edu[e]*p_edu[e])/float(p_pos) for e in edu]
