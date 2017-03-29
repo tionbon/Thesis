@@ -1,0 +1,16 @@
+Experiment Location: /home/casey/School/thesis/research/experiments/sample/__init__.pyc
+Audit Start Time: 2016-05-01 22:36:37.419386
+Audit End Time: 2016-05-01 22:36:56.988856
+Retrained Per Repair: False
+Model Factory ID: 1462156597.66
+Model Type: Support_Vector_Machine
+Non-standard Model Options: {}
+Train Size: 4000
+Test Size: 2000
+Non-standard Ignored Features: []
+Features: ['Feature A (i)', 'Feature B (2i)', 'Feature C (-i)', 'Constant Feature', 'Random Feature', 'Outcome']
+
+Ranked Features by accuracy: [('Feature A (i)', 0.49950000000000006), ('Feature B (2i)', 0.49950000000000006), ('Feature C (-i)', 0.49950000000000006), ('Random Feature', 0.03200000000000003), ('Constant Feature', 0.0)]
+	Approx. Trend Groups: [['Feature A (i)', 'Feature B (2i)'], ['Feature C (-i)'], ['Constant Feature', 'Random Feature']]
+Ranked Features by BCR: [('Feature A (i)', 0.4965028741034677), ('Feature B (2i)', 0.4965028741034677), ('Feature C (-i)', 0.4965028741034677), ('Random Feature', 0.03203715333752011), ('Constant Feature', 0.0)]
+	Approx. Trend Groups: [['Feature A (i)', 'Feature B (2i)'], ['Feature C (-i)'], ['Constant Feature', 'Random Feature']]

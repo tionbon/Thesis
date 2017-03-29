@@ -1,0 +1,16 @@
+Experiment Location: /home/cfalk/BlackBoxAuditing/experiments/adult/__init__.pyc
+Audit Start Time: 2016-05-02 00:05:39.874892
+Audit End Time: 2016-05-02 00:10:20.546759
+Retrained Per Repair: False
+Model Factory ID: 1462161940.7
+Model Type: J48_Decision_Tree
+Non-standard Model Options: {}
+Train Size: 32561
+Test Size: 16281
+Non-standard Ignored Features: []
+Features: ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status', 'occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country', 'income-per-year']
+
+Ranked Features by accuracy: [('capital-gain', 0.30661507278422695), ('education', 0.20969227934402057), ('education-num', 0.2083410109944106), ('capital-loss', 0.17468214483139854), ('hours-per-week', 0.11995577667219459), ('age', 0.09471162704993552), ('workclass', 0.09471162704993552), ('marital-status', 0.08734107241569922), ('fnlwgt', 0.08353295252134385), ('native-country', 0.08230452674897115), ('occupation', 0.06701062588293105), ('relationship', 0.05134819728517903), ('sex', 0.040722314354155076), ('race', 0.024138566427123642)]
+	Approx. Trend Groups: [['age', 'workclass', 'fnlwgt', 'marital-status', 'occupation', 'relationship', 'sex', 'hours-per-week', 'native-country'], ['education', 'education-num'], ['capital-loss'], ['race'], ['capital-gain']]
+Ranked Features by BCR: [('age', 0.27939880200756884), ('workclass', 0.27939880200756884), ('capital-loss', 0.27006110401231487), ('capital-gain', 0.2425687522072656), ('native-country', 0.23661526678196199), ('occupation', 0.1908643510999788), ('relationship', 0.1744151020564345), ('hours-per-week', 0.1651815964074027), ('sex', 0.12812823248756244), ('marital-status', 0.11222233931576797), ('fnlwgt', 0.11044774480967168), ('race', 0.0795574114882569), ('education', 0.056726710564200644), ('education-num', 0.055123741740984444)]
+	Approx. Trend Groups: [['age', 'workclass', 'native-country'], ['capital-gain'], ['capital-loss'], ['fnlwgt'], ['marital-status', 'race', 'sex'], ['education'], ['education-num'], ['occupation'], ['hours-per-week'], ['relationship']]

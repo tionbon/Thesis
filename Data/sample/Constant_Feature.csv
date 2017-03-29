@@ -1,4 +1,4 @@
-Feature_A_(i),Feature_A_(i)-noConstant_Feature,Feature_B_(2i),Feature_B_(2i)-noConstant_Feature,Feature_C_(-i),Feature_C_(-i)-noConstant_Feature,Constant_Feature,Constant_Feature-noConstant_Feature,Random_Feature,Random_Feature-noConstant_Feature,Outcome,Outcome-noConstant_Feature
+Feature_A,Feature_A-noConstant_Feature,Feature_B,Feature_B-noConstant_Feature,Feature_C,Feature_C-noConstant_Feature,Constant_Feature,Constant_Feature-noConstant_Feature,Random_Feature,Random_Feature-noConstant_Feature,Outcome,Outcome-noConstant_Feature
 0,0,0,0,0,0,1,1,0.3581485321045217,0.3581485321045217,A,A
 1,1,2,2,-1,-1,1,1,0.8839101610867179,0.8839101610867179,A,A
 3,3,6,6,-3,-3,1,1,0.6316865682867979,0.6316865682867979,A,A

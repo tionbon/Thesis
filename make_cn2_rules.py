@@ -24,8 +24,6 @@ def cn2_complements(orig_data, merged, output, beam_width, min_covered_examples,
 	learner_orig.rule_finder.search_strategy.constrain_continuous = True
 	# set the minimum number of examples a found rule must cover to be considered
 	learner_orig.rule_finder.general_validator.min_covered_examples = min_covered_examples
-	# set the maximum number of selectors (conditions) found rules may combine
-	learner_orig.rule_finder.general_validator.max_rule_length = max_rule_length
 	# Calculate discrimination score
 	learner_orig.rule_finder.scores = scores
 
@@ -49,8 +47,9 @@ def cn2_complements(orig_data, merged, output, beam_width, min_covered_examples,
 				complement_rules = find_and_evaluate_complement_rules(rule, dataset, scores, tag)
 				for cr in complement_rules:
 					rules.writerow([rule_identifier, cr[0], cr[1], cr[2]])
+			rule_identifier += 1	
 	# Open files
-	os.system('xdg-open Rules/'+output+".csv")
+	os.system('gedit Rules/'+output+".csv")
 """
 -find obscure column name, find all combination of attributes, find all values for each combo, calculate laplace and discrimination score, write rules
 """
@@ -59,40 +58,30 @@ def parse_rule(rule):
 	# separate the string representation of the rule 
 	# 	into its antecedent and consequent parts
 	attributes = rule.domain.attributes
+	class_var = rule.domain.class_var
 	srule = str(rule)
 	antecedent = [(attributes[s.column].name, s.op, 
                                  (str(attributes[s.column].values[int(s.value)])
                                   if attributes[s.column].is_discrete
                                   else str(s.value))) for s in rule.selectors]
-	consequent = srule.split(" THEN ")[1].split("=")
-	parsed_outcome = [consequent[0], consequent[1][:-1]]
+	parsed_outcome = [class_var.name, class_var.values[rule.prediction]]
 	# format the rule as a query and store the query version per feature
 	rule_query = ""
 	group_values = {}
 	for selector in antecedent:
 		op = selector[1]
 		query_op = "==" if (op==(">=") or op=="<=") else selector[1]
-		rule_structure = "{} {} '{}'".format(selector[0], query_op, selector[2])
+		rule_structure = ""
+		try:
+			val = int(float(selector[2]))
+			rule_structure = "{} {} {}".format(selector[0], query_op, val)
+		except:
+			rule_structure = "{} {} '{}'".format(selector[0], query_op, selector[2])
 		rule_query += rule_structure + " & "
 		group_values[selector[0]] = (rule_structure, op)
 	rule_query += "{} == '{}'".format(parsed_outcome[0], parsed_outcome[1])
 	return rule_query, parsed_outcome, group_values
 
-#complements = [",".join(map(str, comb)) for comb in combinations(obscured, len(original))]
-
-"""
-A and B
-not A.. and B
-not A.. and not B...
-A and not B...
-"""
-#Need: feature, op, val 
-
-
-#obscured_and_original_cols = [A, noA, B, noB]
-#parsed_outcome = ["Class", "value"]
-#group_values = {feature:query}
-#comb = (A, "A == 'b'")
 def find_and_evaluate_complement_rules(rule, dataset, scores, tag):
 	# gather the features of the rule and their respective obscured feature names
 	attributes = rule.domain.attributes
@@ -105,33 +94,45 @@ def find_and_evaluate_complement_rules(rule, dataset, scores, tag):
 	# find the section of data covered by the original rule
 	df = pd.read_csv(dataset)
 	df.columns = df.columns.str.replace('-', '_')
-	df.columns = df.columns.str.replace(' ', '_')
 	covered_data = df.query(rule_query)
 
 	# find values for each feature
-	selectors = [(i, group_values[i][0], group_values[i][1]) for i in original]
+	#selectors = [(i, group_values[i][0], group_values[i][1]) for i in original]
+	selectors = []
 	for col in obscured_and_original_cols:
 		unique_vals = covered_data[col].unique()
 		op = group_values[col.split(tag)[0]][1]
 		for unique_val in unique_vals:
-			query = "{} {} '{}'".format(col, op, unique_val)
+			try:
+				int(unique_val)
+				query = "{} {} {}".format(col, op, unique_val)
+			except:
+				try:
+					float(unique_val)
+					query = "{} {} {}".format(col, op, unique_val)
+				except:
+					query = "{} {} '{}'".format(col, op, unique_val)
 			selectors.append((col, query, op))
 
-	#print(selectors)
 	# find all combinations of selectors
 	# [((A,query), (B,query), (C,query)), ()]
 	all_combinations = [eval(str(comb)) for comb in combinations(selectors, len(original))]
-	valid_combinations = set()
+	valid_combinations = []
+	valid_feature_sets = []
 	for comb in all_combinations:
 		#print(comb)
-		features = [selector[0].split(tag)[0] for selector in comb]
+		feature_form = [selector[0].split(tag)[0] for selector in comb]
+		features = set([selector[1] for selector in comb])
 		#print(features)
 		# filter out valid rules
-		if set(features) == rule_form:
-			valid_combinations.add(comb)
+		if set(feature_form) == rule_form and features not in valid_feature_sets:
+			valid_combinations.append(comb)
+			valid_feature_sets.append(features)
+
 
 	# lapace = (N(covered with predicted class) + 1)/(N(total covered) + k)
 	complement_rules = []
+	sorted_complement_rules = []
 	for comb in valid_combinations:
 		comb_query = ""
 		for selector in comb:
@@ -155,12 +156,27 @@ def find_and_evaluate_complement_rules(rule, dataset, scores, tag):
 			elements = selector[1].split(" {} ".format(op))
 			formatted_selector = ""
 			if len(elements) > 1:
-				formatted_selector = "{}{}{}".format(elements[0], op, elements[1][1:-1])
+				value = elements[1]
+				try:
+					int(value)
+				except:
+					try:
+						float(value)
+					except:
+						value = value[1:-1]
+				formatted_selector = "{}{}{}".format(elements[0], op, value)
 			else: 
 				manual_split = selector[1].split(" ")
 				feature = manual_split[0]
 				op = manual_split[1]
-				value = manual_split[2][1:-1]
+				value = manual_split[2]
+				try:
+					int(value)
+				except:
+					try:
+						float(value)
+					except:
+						value = value[1:-1]
 				formatted_selector = "{}{}{}".format(feature, op, value)
 			formatted_rule_conditions.append(formatted_selector)
 
@@ -169,7 +185,9 @@ def find_and_evaluate_complement_rules(rule, dataset, scores, tag):
 		formatted_rule = "IF " + formatted_rule_antecedent + " THEN " + formatted_outcome
 		complement_rules.append((formatted_rule, laplace, discrimination_score))
 
-	return complement_rules
+		sorted_complement_rules = sorted(complement_rules, reverse=True, key=lambda x: x[1])
+
+	return sorted_complement_rules
 
 
 
@@ -201,11 +219,3 @@ if __name__ == "__main__":
 		scores[element[0]+tag] = 0.0
 
 	cn2_complements(orig_data, repaired_data, output, beam_width, min_covered_examples, max_rule_length, scores, tag)
-"""
-Constant_Feature.summary  Feature_C_(-i).summary
-Constant_Feature.tab      Feature_C_(-i).tab
-Feature_A_(i).summary     original.tab
-Feature_A_(i).tab         Random_Feature.summary
-Feature_B_(2i).summary    Random_Feature.tab
-Feature_B_(2i).tab
-"""

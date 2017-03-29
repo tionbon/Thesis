@@ -1,0 +1,16 @@
+Experiment Location: /home/casey/School/thesis/research/experiments/sample/__init__.pyc
+Audit Start Time: 2016-05-01 22:39:28.719256
+Audit End Time: 2016-05-01 22:39:42.097669
+Retrained Per Repair: False
+Model Factory ID: 1462156768.95
+Model Type: J48_Decision_Tree
+Non-standard Model Options: {}
+Train Size: 4000
+Test Size: 2000
+Non-standard Ignored Features: []
+Features: ['Feature A (i)', 'Feature B (2i)', 'Feature C (-i)', 'Constant Feature', 'Random Feature', 'Outcome']
+
+Ranked Features by accuracy: [('Feature A (i)', 0.498), ('Feature B (2i)', 0.4665), ('Feature C (-i)', 0.4645), ('Random Feature', 0.03700000000000003), ('Constant Feature', 0.0)]
+	Approx. Trend Groups: [['Feature A (i)'], ['Feature B (2i)', 'Feature C (-i)'], ['Constant Feature', 'Random Feature']]
+Ranked Features by BCR: [('Feature A (i)', 0.5), ('Feature B (2i)', 0.46572545160722567), ('Feature C (-i)', 0.46525744411910597), ('Random Feature', 0.037012592201475236), ('Constant Feature', 0.0)]
+	Approx. Trend Groups: [['Feature A (i)'], ['Feature B (2i)', 'Feature C (-i)'], ['Constant Feature', 'Random Feature']]

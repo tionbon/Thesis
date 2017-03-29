@@ -1,0 +1,5 @@
+Label,Rules,Quality,Score
+0,IF Feature_A>=3001.0 THEN Outcome=B ,0.999501495513,0.498
+0,IF Feature_A>=3001 THEN Outcome==B,0.9995014955134596,0.498
+0,IF Feature_A_noConstant_Feature>=3001 THEN Outcome==B,0.9995014955134596,0.0
+1,IF TRUE THEN Outcome=A ,0.999499499499,0.0

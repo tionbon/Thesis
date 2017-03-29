@@ -1,0 +1,2 @@
+Label,Rules,Quality,Score
+0,IF capital_gain<=5013.0 AND age<=21.0 AND education==Some-college THEN income_per_year=<=50K ,0.999465240642,0.29538102452807
