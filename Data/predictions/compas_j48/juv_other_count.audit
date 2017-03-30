@@ -1,0 +1,12 @@
+GFA Audit for:juv_other_count
+0.0:{"High": {"High": 114, "Medium": 142, "Low": 107}, "Medium": {"High": 68, "Medium": 164, "Low": 295}, "Low": {"High": 22, "Medium": 132, "Low": 1014}}
+0.1:{"High": {"High": 115, "Medium": 143, "Low": 105}, "Medium": {"High": 75, "Medium": 158, "Low": 294}, "Low": {"High": 24, "Medium": 146, "Low": 998}}
+0.2:{"High": {"High": 104, "Medium": 187, "Low": 72}, "Medium": {"High": 60, "Medium": 227, "Low": 240}, "Low": {"High": 20, "Medium": 230, "Low": 918}}
+0.3:{"High": {"High": 87, "Medium": 204, "Low": 72}, "Medium": {"High": 49, "Medium": 247, "Low": 231}, "Low": {"High": 10, "Medium": 251, "Low": 907}}
+0.4:{"High": {"High": 87, "Medium": 205, "Low": 71}, "Medium": {"High": 50, "Medium": 259, "Low": 218}, "Low": {"High": 9, "Medium": 261, "Low": 898}}
+0.5:{"High": {"High": 71, "Medium": 216, "Low": 76}, "Medium": {"High": 32, "Medium": 257, "Low": 238}, "Low": {"High": 6, "Medium": 263, "Low": 899}}
+0.6:{"High": {"High": 62, "Medium": 231, "Low": 70}, "Medium": {"High": 25, "Medium": 270, "Low": 232}, "Low": {"High": 8, "Medium": 269, "Low": 891}}
+0.7:{"High": {"High": 34, "Medium": 258, "Low": 71}, "Medium": {"High": 13, "Medium": 310, "Low": 204}, "Low": {"High": 3, "Medium": 327, "Low": 838}}
+0.8:{"High": {"High": 11, "Medium": 276, "Low": 76}, "Medium": {"High": 6, "Medium": 325, "Low": 196}, "Low": {"High": 1, "Medium": 363, "Low": 804}}
+0.9:{"High": {"Medium": 267, "Low": 96}, "Medium": {"Medium": 333, "Low": 194}, "Low": {"Medium": 506, "Low": 662}}
+1.0:{"High": {"Medium": 241, "Low": 122}, "Medium": {"Medium": 344, "Low": 183}, "Low": {"Medium": 786, "Low": 382}}

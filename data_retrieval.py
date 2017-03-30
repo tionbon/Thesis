@@ -418,7 +418,136 @@ def sample_data_retrieval(orig_file, repaired_dir, repaired_attribs):
  			summary.close()
 
 	repaired_file.close()
+
+def compas_retrieval_and_merger(orig_train, predictions_file, repaired_file, feature, learner):
+	repair_value = 1.0
+
+	# Access original training file
+	orig_train = open(orig_train, 'rt')
+	orig_train_reader = csv.reader(orig_train)
+	
+
+	predictions = open(predictions_file, 'rt')
+	predictions_reader = csv.reader(predictions)
+	next(predictions_reader)
+
+	# Open new file for writing original data
+	orig_file = open("./Data/compas/original_{}.tab".format(learner), 'w') 
+
+	# Get column names 
+	col_names = next(orig_train_reader)
+	orig_cols = [col_name for col_name in col_names[:-1]]
+
+	# convert original file to tab separated file 
+	orig_file.write("\t".join(orig_cols) +"\n")
+	orig_file.write("d\tc\td\td\tc\tc\tc\tc\td\td\tc\td\n")
+	orig_file.write("\t\t\t\t\t\t\t\t\t\tignore\tclass\n")
+	for row in orig_train_reader:
+		orig_file.write("\t".join(row[:-2]+[next(predictions_reader)[-1]])+"\n")
+
+	# Access audited files
+	f1 = open(repaired_file, 'rt')
+	repaired_reader = csv.reader(f1)
+	next(repaired_reader)
+
+	# Open new file for writing merged data
+	with open("./Data/compas/{}_{}.csv".format(feature, learner), 'w') as file:
+		orig_train.seek(0)
+		next(orig_train_reader)
+		predictions.seek(0)
+		next(predictions_reader)
+		repaired_file = csv.writer(file)
+
+		# Merge Headers
+		header = orig_cols
+		repaired_header = [i+'_no{}'.format(feature) for i in header]
+		merged = [None]*(len(header)+len(repaired_header))
+		merged[::2] = header
+		merged[1::2] = repaired_header
 		
+		repaired_file.writerow(merged)
+
+		# convert to tab separated file, merge and write
+		for orig_row in orig_train_reader:
+			repaired_row = next(repaired_reader)[:-1]
+			merged = [None]*(len(orig_row)-1+len(repaired_row))
+			merged[::2] = orig_row[:-2]+[next(predictions_reader)[-1]]
+			merged[1::2] = repaired_row
+			repaired_file.writerow(merged)
+				
+
+	summary = open("./Data/compas/compas_{}_summary.txt".format(learner), 'w')
+	f = open("./Data/predictions/compas_{}/summary.txt".format(learner), 'r')
+	for line in f:
+		if line.startswith('Ranked Features by accuracy:'):
+			ds = line.split(':')[1][1:].replace("-","_")
+ 			summary.write(ds)
+ 			summary.close()	
+		
+def compas2_retrieval_and_merger(orig_train, predictions_file, repaired_file, feature, learner):
+	repair_value = 1.0
+
+	# Access original training file
+	orig_train = open(orig_train, 'rt')
+	orig_train_reader = csv.reader(orig_train)
+	
+
+	predictions = open(predictions_file, 'rt')
+	predictions_reader = csv.reader(predictions)
+	next(predictions_reader)
+
+	# Open new file for writing original data
+	orig_file = open("./Data/compas2/original_{}.tab".format(learner), 'w') 
+
+	# Get column names 
+	col_names = next(orig_train_reader)
+	orig_cols = [col_name for col_name in col_names[:-1]]
+
+	# convert original file to tab separated file 
+	orig_file.write("\t".join(orig_cols) +"\n")
+	orig_file.write("d\tc\td\td\tc\tc\tc\tc\td\td\tc\td\n")
+	orig_file.write("\t\t\t\t\t\t\t\t\t\tignore\tclass\n")
+	for row in orig_train_reader:
+		orig_file.write("\t".join(row[:-2]+[next(predictions_reader)[0]])+"\n")
+
+	# Access audited files
+	f1 = open(repaired_file, 'rt')
+	repaired_reader = csv.reader(f1)
+	next(repaired_reader)
+
+	# Open new file for writing merged data
+	with open("./Data/compas2/{}_{}.csv".format(feature, learner), 'w') as file:
+		orig_train.seek(0)
+		next(orig_train_reader)
+		predictions.seek(0)
+		next(predictions_reader)
+		repaired_file = csv.writer(file)
+
+		# Merge Headers
+		header = orig_cols
+		repaired_header = [i+'_no{}'.format(feature) for i in header]
+		merged = [None]*(len(header)+len(repaired_header))
+		merged[::2] = header
+		merged[1::2] = repaired_header
+		
+		repaired_file.writerow(merged)
+
+		# convert to tab separated file, merge and write
+		for orig_row in orig_train_reader:
+			repaired_row = next(repaired_reader)[:-1]
+			merged = [None]*(len(orig_row)-1+len(repaired_row))
+			merged[::2] = orig_row[:-2]+[next(predictions_reader)[0]]
+			merged[1::2] = repaired_row
+			repaired_file.writerow(merged)
+				
+
+	summary = open("./Data/compas2/compas_{}_summary.txt".format(learner), 'w')
+	f = open("./Data/predictions/compas_{}/summary.txt".format(learner), 'r')
+	for line in f:
+		if line.startswith('Ranked Features by accuracy:'):
+			ds = line.split(':')[1][1:].replace("-","_")
+ 			summary.write(ds)
+ 			summary.close()	
 
 if __name__ == "__main__":
 	#repaired_dir = "./Audit/audits/1487023139.65"
@@ -443,14 +572,19 @@ if __name__ == "__main__":
 	#predictions ="./Data/predictions/sample_j48_original_train_data.predictions"
 	#orig_file = "./Audit/audits/1490652783.56/Random_Feature.audit.test.repaired_0.0.data"
 	learner = "j48"
-	orig_train = "./Data/predictions/adult_{}/original_train_data.csv".format(learner)
-	predictions ="./Data/predictions/adult_{}_original_train_data.predictions".format(learner)
+	#orig_train = "./Data/predictions/adult_{}/original_train_data.csv".format(learner)
+	#predictions ="./Data/predictions/adult_{}_original_train_data.predictions".format(learner)
 	#orig_file = "./Audit/audits/1489762753.74/Random_Feature.audit.test.repaired_0.0.data"
-	repaired_file = "./Data/predictions/relationship_train_{}.data".format(learner)
-	feature = "relationship"
+	#repaired_file = "./Data/predictions/relationship_train_{}.data".format(learner)
+	#feature = "relationship"
+	orig_train = "./Data/predictions/compas_{}/original_train_data.csv".format(learner)
+	predictions ="./Data/predictions/compas_{}/original_train_data.predictions".format(learner)
+	#orig_file = "./Audit/audits/1489762753.74/Random_Feature.audit.test.repaired_0.0.data"
+	repaired_file = "./Data/predictions/compas_race_{}_data.csv".format(learner)
+	feature = "race"
 	#dir_ = "./Data"
 	#for i in attribs:
 	#	retrieval_and_merger(orig_file, dir_, repaired_dir, i)
-	adult2_retrieval_and_merger(orig_train, predictions, repaired_file, feature, learner)
+	compas2_retrieval_and_merger(orig_train, predictions, repaired_file, feature, learner)
 	#adult_retrieval_and_merger(orig_file, repaired_dir)
 

@@ -1,0 +1,12 @@
+GFA Audit for:c_charge_degree
+0.0:{"High": {"High": 128, "Medium": 133, "Low": 127}, "Medium": {"High": 68, "Medium": 138, "Low": 315}, "Low": {"High": 19, "Medium": 101, "Low": 1029}}
+0.1:{"High": {"High": 123, "Medium": 132, "Low": 133}, "Medium": {"High": 61, "Medium": 138, "Low": 322}, "Low": {"High": 24, "Medium": 94, "Low": 1031}}
+0.2:{"High": {"High": 123, "Medium": 127, "Low": 138}, "Medium": {"High": 65, "Medium": 131, "Low": 325}, "Low": {"High": 24, "Medium": 94, "Low": 1031}}
+0.3:{"High": {"High": 122, "Medium": 134, "Low": 132}, "Medium": {"High": 64, "Medium": 128, "Low": 329}, "Low": {"High": 20, "Medium": 103, "Low": 1026}}
+0.4:{"High": {"High": 128, "Medium": 129, "Low": 131}, "Medium": {"High": 59, "Medium": 142, "Low": 320}, "Low": {"High": 14, "Medium": 97, "Low": 1038}}
+0.5:{"High": {"High": 116, "Medium": 116, "Low": 156}, "Medium": {"High": 54, "Medium": 124, "Low": 343}, "Low": {"High": 20, "Medium": 84, "Low": 1045}}
+0.6:{"High": {"High": 107, "Medium": 119, "Low": 162}, "Medium": {"High": 57, "Medium": 143, "Low": 321}, "Low": {"High": 24, "Medium": 82, "Low": 1043}}
+0.7:{"High": {"High": 107, "Medium": 119, "Low": 162}, "Medium": {"High": 54, "Medium": 128, "Low": 339}, "Low": {"High": 17, "Medium": 75, "Low": 1057}}
+0.8:{"High": {"High": 99, "Medium": 131, "Low": 158}, "Medium": {"High": 48, "Medium": 127, "Low": 346}, "Low": {"High": 26, "Medium": 85, "Low": 1038}}
+0.9:{"High": {"High": 94, "Medium": 124, "Low": 170}, "Medium": {"High": 49, "Medium": 133, "Low": 339}, "Low": {"High": 15, "Medium": 88, "Low": 1046}}
+1.0:{"High": {"High": 93, "Medium": 127, "Low": 168}, "Medium": {"High": 38, "Medium": 151, "Low": 332}, "Low": {"High": 19, "Medium": 90, "Low": 1040}}

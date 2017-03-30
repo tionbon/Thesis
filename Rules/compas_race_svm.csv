@@ -1,0 +1,2 @@
+Label,Rules,Quality,Score
+0,IF priors_count<=2.0 AND age>=47.0 AND age>=54.0 AND priors_count<=1.0 AND sex!=Female THEN score_text=Low ,0.987577639752,0.7925170068027213

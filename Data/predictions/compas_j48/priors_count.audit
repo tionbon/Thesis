@@ -1,0 +1,12 @@
+GFA Audit for:priors_count
+0.0:{"High": {"High": 114, "Medium": 142, "Low": 107}, "Medium": {"High": 68, "Medium": 164, "Low": 295}, "Low": {"High": 22, "Medium": 132, "Low": 1014}}
+0.1:{"High": {"High": 95, "Medium": 128, "Low": 140}, "Medium": {"High": 65, "Medium": 150, "Low": 312}, "Low": {"High": 18, "Medium": 118, "Low": 1032}}
+0.2:{"High": {"High": 91, "Medium": 99, "Low": 173}, "Medium": {"High": 58, "Medium": 118, "Low": 351}, "Low": {"High": 16, "Medium": 90, "Low": 1062}}
+0.3:{"High": {"High": 86, "Medium": 78, "Low": 199}, "Medium": {"High": 53, "Medium": 72, "Low": 402}, "Low": {"High": 18, "Medium": 53, "Low": 1097}}
+0.4:{"High": {"High": 76, "Medium": 52, "Low": 235}, "Medium": {"High": 48, "Medium": 51, "Low": 428}, "Low": {"High": 16, "Medium": 39, "Low": 1113}}
+0.5:{"High": {"High": 68, "Medium": 41, "Low": 254}, "Medium": {"High": 33, "Medium": 45, "Low": 449}, "Low": {"High": 14, "Medium": 30, "Low": 1124}}
+0.6:{"High": {"High": 53, "Medium": 37, "Low": 273}, "Medium": {"High": 33, "Medium": 37, "Low": 457}, "Low": {"High": 9, "Medium": 24, "Low": 1135}}
+0.7:{"High": {"High": 33, "Medium": 17, "Low": 313}, "Medium": {"High": 24, "Medium": 29, "Low": 474}, "Low": {"High": 10, "Medium": 14, "Low": 1144}}
+0.8:{"High": {"High": 25, "Medium": 12, "Low": 326}, "Medium": {"High": 15, "Medium": 15, "Low": 497}, "Low": {"High": 7, "Medium": 4, "Low": 1157}}
+0.9:{"High": {"High": 13, "Medium": 9, "Low": 341}, "Medium": {"High": 5, "Medium": 10, "Low": 512}, "Low": {"High": 2, "Medium": 5, "Low": 1161}}
+1.0:{"High": {"Low": 363}, "Medium": {"Low": 527}, "Low": {"Low": 1168}}

@@ -1,0 +1,2059 @@
+sex,age,age_cat,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,c_charge_desc,decile_score,score_text,two_year_recid
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,DUI Property Damage/Injury,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,DUI Property Damage/Injury,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Battery (Dom Strang),2,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Battery (Dom Strang),8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,DUI Property Damage/Injury,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,10,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Petit Theft,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,5,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Felony Battery (Dom Strang),1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,8,High,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,8,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,10,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Driving While License Revoked,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Driving While License Revoked,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Possession of Cocaine,6,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,DUI Property Damage/Injury,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,DUI Property Damage/Injury,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,3,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,8,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,arrest case no charge,9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Viol Injunct Domestic Violence,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Driving While License Revoked,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Other,0,0,0,7,F,Battery,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Driving While Lic Suspd,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,DUI Property Damage/Injury,6,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Viol Injunct Domestic Violence,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Felony Petit Theft,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Viol Injunct Domestic Violence,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Felony Driving While Lic Suspd,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft (Motor Vehicle),3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Viol Injunct Domestic Violence,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,10,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,3,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft (Motor Vehicle),4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Viol Injunct Domestic Violence,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,Other,0,0,0,7,F,Battery,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving Under The Influence,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,9,High,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,Possession of Cocaine,5,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Battery (Dom Strang),7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,3,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,Other,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,9,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Felony Petit Theft,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Driving While Lic Suspd,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Possession of Cocaine,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,10,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Viol Injunct Domestic Violence,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving Under The Influence,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Petit Theft,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,8,High,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,7,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,DUI Property Damage/Injury,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,M,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Other,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Driving While Lic Suspd,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Viol Injunct Domestic Violence,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,1
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Driving While License Revoked,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,3,Low,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,10,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Driving Under The Influence,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Driving While License Revoked,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Driving While License Revoked,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,1
+Male,26,Greater than 45,Other,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,8,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,10,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,10,High,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,DUI Property Damage/Injury,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Driving While Lic Suspd,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft (Motor Vehicle),3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft (Motor Vehicle),5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Possession of Cocaine,10,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Viol Injunct Domestic Violence,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Petit Theft,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving Under The Influence,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,4,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),8,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,DUI Property Damage/Injury,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,9,High,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Driving While Lic Suspd,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Viol Injunct Domestic Violence,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,DUI Property Damage/Injury,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving Under The Influence,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,2,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Driving Under The Influence,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,2,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,4,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,Viol Injunct Domestic Violence,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Driving While License Revoked,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Driving While Lic Suspd,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Driving While Lic Suspd,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Viol Injunct Domestic Violence,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Battery (Dom Strang),3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,9,High,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving Under The Influence,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,3,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,2,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Felony Battery (Dom Strang),5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,8,High,1
+Male,26,Greater than 45,Other,0,0,0,7,M,arrest case no charge,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,3,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Other,0,0,0,7,M,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Viol Injunct Domestic Violence,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,1,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Driving While Lic Suspd,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,M,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,7,Medium,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,DUI Property Damage/Injury,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,DUI Property Damage/Injury,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Driving While Lic Suspd,3,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Grand Theft in the 3rd Degree,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,7,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Driving While Lic Suspd,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Driving While Lic Suspd,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Driving While Lic Suspd,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Viol Injunct Domestic Violence,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,Other,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,3,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,8,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,5,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,F,Felony Driving While Lic Suspd,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,10,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Driving While License Revoked,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,Other,0,0,0,7,F,Possession of Cocaine,9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,3,Low,1
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,Other,0,0,0,7,F,Grand Theft (Motor Vehicle),3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,DUI Property Damage/Injury,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Driving While License Revoked,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,DUI Property Damage/Injury,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Driving Under The Influence,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,M,Battery,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,9,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,3,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,DUI Property Damage/Injury,5,Medium,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,DUI Property Damage/Injury,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,0
+Male,26,Greater than 45,Other,0,0,0,7,M,arrest case no charge,6,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,F,Felony Petit Theft,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,9,High,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft (Motor Vehicle),5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Viol Injunct Domestic Violence,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,5,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),10,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,Other,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,1
+Female,26,Greater than 45,Other,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,5,Medium,1
+Female,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,10,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving Under The Influence,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Driving While Lic Suspd,5,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Driving Under The Influence,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Battery (Dom Strang),8,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),5,Medium,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,8,High,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,DUI Property Damage/Injury,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Driving While License Revoked,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Driving While Lic Suspd,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Driving While Lic Suspd,3,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,DUI Property Damage/Injury,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,10,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,8,High,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,1
+Female,26,Greater than 45,Other,0,0,0,7,F,Grand Theft (Motor Vehicle),1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Felony Petit Theft,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,9,High,1
+Female,26,Greater than 45,Other,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft (Motor Vehicle),4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Viol Injunct Domestic Violence,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,9,High,1
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,10,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Driving While License Revoked,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,10,High,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Driving While License Revoked,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Driving While Lic Suspd,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),3,Low,1
+Female,26,Greater than 45,Other,0,0,0,7,F,Felony Driving While Lic Suspd,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,8,High,0
+Female,26,Greater than 45,Other,0,0,0,7,M,Grand Theft in the 3rd Degree,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,10,High,1
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Battery (Dom Strang),4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving While License Revoked,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,6,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Felony Driving While Lic Suspd,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,0
+Male,26,Greater than 45,Other,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Viol Injunct Domestic Violence,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Grand Theft in the 3rd Degree,9,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,DUI Property Damage/Injury,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Viol Injunct Domestic Violence,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Driving While License Revoked,9,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,Other,0,0,0,7,F,Driving While License Revoked,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Driving While Lic Suspd,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Driving While Lic Suspd,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Battery (Dom Strang),2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,10,High,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Felony Petit Theft,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,3,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,4,Low,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Felony Petit Theft,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft (Motor Vehicle),1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Felony Battery (Dom Strang),4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Felony Petit Theft,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,5,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Driving Under The Influence,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft (Motor Vehicle),3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Possession of Cocaine,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Battery (Dom Strang),9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Other,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,arrest case no charge,7,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Petit Theft,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Viol Injunct Domestic Violence,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,1,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,6,Medium,1
+Female,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,8,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,2,Low,1
+Female,26,Greater than 45,Other,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,4,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Battery (Dom Strang),5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Battery (Dom Strang),1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,2,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Viol Injunct Domestic Violence,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft (Motor Vehicle),5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,9,High,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,4,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Other,0,0,0,7,F,arrest case no charge,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,10,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,3,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,1
+Male,26,Greater than 45,Other,0,0,0,7,F,DUI Property Damage/Injury,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,4,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,1,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,6,Medium,0
+Female,26,Greater than 45,Other,0,0,0,7,F,Battery,1,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,2,Low,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,10,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Felony Battery (Dom Strang),9,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Battery,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,6,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,Other,0,0,0,7,F,Driving Under The Influence,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,1
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,1,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,4,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Grand Theft in the 3rd Degree,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,Possession of Cocaine,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft (Motor Vehicle),7,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Driving While License Revoked,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,3,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,M,Battery,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft in the 3rd Degree,9,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,3,Low,1
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,Driving Under The Influence,4,Low,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,8,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,5,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,9,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Possession of Cocaine,8,High,1
+Male,26,Greater than 45,Other,0,0,0,7,M,Driving While License Revoked,2,Low,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,8,High,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Possession of Cocaine,1,Low,0
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,8,High,1
+Female,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,4,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Felony Driving While Lic Suspd,6,Medium,1
+Female,26,Greater than 45,Caucasian,0,0,0,7,F,Felony Petit Theft,8,High,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,DUI Property Damage/Injury,10,High,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,10,High,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Driving While License Revoked,6,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,5,Medium,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Driving Under The Influence,2,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,M,Battery,5,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,7,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Grand Theft in the 3rd Degree,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,1
+Male,26,Greater than 45,Hispanic,0,0,0,7,M,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,7,Medium,0
+Female,26,Greater than 45,African-American,0,0,0,7,F,arrest case no charge,6,Medium,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,arrest case no charge,4,Low,1
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,1,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Battery,2,Low,0
+Male,26,Greater than 45,Hispanic,0,0,0,7,F,arrest case no charge,2,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,F,Battery,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Grand Theft (Motor Vehicle),6,Medium,1
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,9,High,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Driving While License Revoked,7,Medium,0
+Male,26,Greater than 45,African-American,0,0,0,7,F,Possession of Cocaine,3,Low,0
+Male,26,Greater than 45,Caucasian,0,0,0,7,M,Battery,2,Low,0
+Female,26,Greater than 45,Hispanic,0,0,0,7,F,Driving Under The Influence,4,Low,1

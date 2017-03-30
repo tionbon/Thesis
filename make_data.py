@@ -127,7 +127,7 @@ W = Data.query("Race == 'W'")
 M = Data.query("Gender == 'M'")
 F = Data.query("Gender == 'F'")
 
-BF = Data.query("Race == 'B' & Gender == 'F'")
+ 
 BM = Data.query("Race == 'B' & Gender == 'M'")
 WF = Data.query("Race == 'W' & Gender == 'F'")
 WM = Data.query("Race == 'W' & Gender == 'M'")

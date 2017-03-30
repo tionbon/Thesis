@@ -6,13 +6,13 @@ import ast
 from collections import defaultdict
 from itertools import combinations
 import pandas as pd
-
+import _pickle
 
 
 path_to_datatables = "/usr/local/lib/python3.5/dist-packages/Orange/datasets/"
 
 
-def cn2_complements(orig_data, merged, output, beam_width, min_covered_examples, max_rule_length, scores, tag):
+def make_cn2_rules(orig_data, merged, output, beam_width, min_covered_examples, max_rule_length, scores, tag):
 	print("Learning rules from unrepaired file")
 	# format data for classification
 	original_data = Orange.data.Table.from_file(orig_data)
@@ -33,26 +33,63 @@ def cn2_complements(orig_data, merged, output, beam_width, min_covered_examples,
 	# produce rules from unrepaired data
 	classifier_orig = learner_orig(original_data)
 
-	dataset = str(merged)
-	print("Writing rules to file")
-	# write rules to file
-	with open("Rules/"+output+".csv", 'w') as csvfile:
-		rules = csv.writer(csvfile)
-		# Create rules file from repaired data
-		rules.writerow(["Label","Rules","Quality","Score"])
-		rule_identifier = 0
-		for rule in classifier_orig.rule_list:
-			rules.writerow([rule_identifier, str(rule), rule.quality, rule.score])
-			if rule.selectors:
-				complement_rules = find_and_evaluate_complement_rules(rule, dataset, scores, tag)
-				for cr in complement_rules:
-					rules.writerow([rule_identifier, cr[0], cr[1], cr[2]])
-			rule_identifier += 1	
-	# Open files
-	os.system('gedit Rules/'+output+".csv")
+	# save original rule list
+	print("storing rules")
+	with open(r"{}.pickle".format(output), "wb") as output_file:     
+		_pickle.dump(classifier_orig.rule_list, output_file)
+
+#	dataset = str(merged)
+#	print("Writing rules to file")
+#	# write rules to file
+#	with open("Rules/"+output+".csv", 'w') as csvfile:
+#		rules = csv.writer(csvfile)
+#		# Create rules file from repaired data
+#		rules.writerow(["Label","Rules","Quality","Score"])
+#		rule_identifier = 0
+#		for rule_num, rule in enumerate(classifier_orig.rule_list):
+#			rules.writerow([rule_identifier, str(rule), rule.quality, rule.score])
+#			if rule.selectors:
+#				print("Expanding rule {}".format(rule_num))
+#				complement_rules = find_and_evaluate_complement_rules(rule, dataset, scores, tag)
+#				print("Writing expanded rules for rule {}".format(rule_num))
+#				for cr in complement_rules:
+#					rules.writerow([rule_identifier, cr[0], cr[1], cr[2]])
+#			rule_identifier += 1	
+#	# Open files
+#	os.system('gedit Rules/'+output+".csv")
+
 """
 -find obscure column name, find all combination of attributes, find all values for each combo, calculate laplace and discrimination score, write rules
 """
+def expand_and_write_rules(pickle_rule_list, merged, output, summary, tag):
+	f = open(summary, 'r')
+	scores_data = ast.literal_eval(f.readline())
+	scores = {}
+	for element in scores_data:
+		scores[element[0]] = element[1]
+		scores[element[0]+tag] = 0.0
+
+	with open(r"{}".format(pickle_rule_list), "rb") as input_file:
+		rule_list = _pickle.load(input_file)
+		dataset = str(merged)
+		print("Writing rules to file")
+		# write rules to file
+		with open("Rules/"+output+".csv", 'w') as csvfile:
+			rules = csv.writer(csvfile)
+			# Create rules file from repaired data
+			rules.writerow(["Label","Rules","Quality","Score"])
+			rule_identifier = 0
+			for rule_num, rule in enumerate(rule_list):
+				rules.writerow([rule_identifier, str(rule), rule.quality, rule.score])
+				if rule.selectors:
+					print("Expanding rule {}".format(rule_num))
+					complement_rules = find_and_evaluate_complement_rules(rule, dataset, scores, tag)
+					print("Writing expanded rules for rule {}".format(rule_num))
+					for cr in complement_rules:
+						rules.writerow([rule_identifier, cr[0], cr[1], cr[2]])
+				rule_identifier += 1	
+		# Open files
+		os.system('gedit Rules/'+output+".csv")
 
 def parse_rule(rule):
 	# separate the string representation of the rule 
@@ -67,20 +104,26 @@ def parse_rule(rule):
 	parsed_outcome = [class_var.name, class_var.values[rule.prediction]]
 	# format the rule as a query and store the query version per feature
 	rule_query = ""
+	full_rule_query = ""
 	group_values = {}
 	for selector in antecedent:
 		op = selector[1]
 		query_op = "==" if (op==(">=") or op=="<=") else selector[1]
 		rule_structure = ""
+		full_rule_structure = ""
 		try:
 			val = int(float(selector[2]))
 			rule_structure = "{} {} {}".format(selector[0], query_op, val)
+			full_rule_structure = "{} {} {}".format(selector[0], op, val)
 		except:
 			rule_structure = "{} {} '{}'".format(selector[0], query_op, selector[2])
+			full_rule_structure = "{} {} '{}'".format(selector[0], op, selector[2])
 		rule_query += rule_structure + " & "
+		full_rule_query += full_rule_structure + " & "
 		group_values[selector[0]] = (rule_structure, op)
-	rule_query += "{} == '{}'".format(parsed_outcome[0], parsed_outcome[1])
-	return rule_query, parsed_outcome, group_values
+	rule_query = rule_query[:-3]
+	full_rule_query = full_rule_query[:-3]
+	return rule_query, full_rule_query, parsed_outcome, group_values
 
 def find_and_evaluate_complement_rules(rule, dataset, scores, tag):
 	# gather the features of the rule and their respective obscured feature names
@@ -89,15 +132,17 @@ def find_and_evaluate_complement_rules(rule, dataset, scores, tag):
 	rule_form = set(original)
 	obscured_and_original_cols = original + [orig+tag for orig in original]
 	# parse rule into format for querying
-	rule_query, parsed_outcome, group_values = parse_rule(rule)
+	rule_query, full_rule_query, parsed_outcome, group_values = parse_rule(rule)
 	
 	# find the section of data covered by the original rule
 	df = pd.read_csv(dataset)
 	df.columns = df.columns.str.replace('-', '_')
 	covered_data = df.query(rule_query)
-
+	#print(rule_query)
+	#print(full_rule_query)
+	if len(covered_data) == 0:
+		covered_data = df.query(full_rule_query)
 	# find values for each feature
-	#selectors = [(i, group_values[i][0], group_values[i][1]) for i in original]
 	selectors = []
 	for col in obscured_and_original_cols:
 		unique_vals = covered_data[col].unique()
@@ -191,6 +236,8 @@ def find_and_evaluate_complement_rules(rule, dataset, scores, tag):
 
 
 
+
+
 if __name__ == "__main__":
 	if len(sys.argv) == 1:
 		print("make_rules.py: <original data> <repaired data> <output> <beam width> <minimum covered examples> <maximum rule length> <summary file> \n")
@@ -218,4 +265,5 @@ if __name__ == "__main__":
 		scores[element[0]] = element[1]
 		scores[element[0]+tag] = 0.0
 
-	cn2_complements(orig_data, repaired_data, output, beam_width, min_covered_examples, max_rule_length, scores, tag)
+	make_cn2_rules(orig_data, repaired_data, output, beam_width, min_covered_examples, max_rule_length, scores, tag)
+
