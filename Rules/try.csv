@@ -1,5 +1,91 @@
 Label,Rules,Quality,Score
-0,IF Feature_A>=3001.0 THEN Outcome=B ,0.999501495513,0.498
-0,IF Feature_A>=3001 THEN Outcome==B,0.9995014955134596,0.498
-0,IF Feature_A_noFeature_A>=3593 THEN Outcome==B,0.500999500249875,0.0
-1,IF TRUE THEN Outcome=A ,0.999499499499,0.0
+0,IF priors_count<=4.0 AND age>=25.0 THEN score_text=Low ,0.999120492524,0.4319727891156463
+0,IF priors_count<=4 AND age>=25 THEN score_text==Low,0.9995600527936648,0.4319727891156463
+0,IF priors_count<=4 AND age_norace>=26 THEN score_text==Low,0.9668067226890756,0.06025267249757049
+0,IF age>=25 AND priors_count_norace<=1 THEN score_text==Low,0.9408709548541749,0.3717201166180758
+0,IF priors_count_norace<=1 AND age_norace>=26 THEN score_text==Low,0.9106187929717342,0.0
+1,IF priors_count>=11.0 AND age_cat!=Greater than 45 THEN score_text=High ,0.991836734694,0.07240038872691934
+1,IF priors_count>=11 AND age_cat!=Greater than 45 THEN score_text==High,0.9959016393442623,0.07240038872691934
+1,IF age_cat!=Greater than 45 AND priors_count_norace>=15 THEN score_text==High,0.9714285714285714,0.012147716229348848
+1,IF age_cat!=Greater than 45 AND priors_count_norace>=8 THEN score_text==High,0.9104477611940298,0.012147716229348848
+1,IF age_cat!=Greater than 45 AND priors_count_norace>=4 THEN score_text==High,0.6839186691312384,0.012147716229348848
+2,IF priors_count<=1.0 AND priors_count>=1.0 AND age>=21.0 THEN score_text=Medium ,0.990147783251,0.4922254616132168
+2,IF priors_count>=1 AND priors_count>=1 AND age>=21 THEN score_text==Medium,0.2887060583395662,0.4922254616132168
+2,IF priors_count>=1 AND age>=21 AND priors_count_norace>=1 THEN score_text==Medium,0.2887060583395662,0.4319727891156463
+2,IF priors_count>=1 AND age>=21 AND age_norace>=20 THEN score_text==Medium,0.2887060583395662,0.4319727891156463
+2,IF priors_count>=1 AND priors_count>=1 AND age_norace>=20 THEN score_text==Medium,0.2852973367384166,0.12050534499514098
+2,IF priors_count>=1 AND priors_count_norace>=1 AND age_norace>=20 THEN score_text==Medium,0.2852973367384166,0.06025267249757049
+2,IF age>=21 AND priors_count_norace>=1 AND priors_count_norace>=1 THEN score_text==Medium,0.21512942950490072,0.3717201166180758
+2,IF age>=21 AND priors_count_norace>=1 AND age_norace>=20 THEN score_text==Medium,0.21512942950490072,0.3717201166180758
+2,IF priors_count_norace>=1 AND priors_count_norace>=1 AND age_norace>=20 THEN score_text==Medium,0.21452866861030126,0.0
+3,IF priors_count<=1.0 AND sex!=Female AND age>=21.0 THEN score_text=Low ,0.992366412214,0.44606413994169103
+3,IF priors_count<=1 AND sex!=Female AND age>=21 THEN score_text==Low,0.8906048906048906,0.44606413994169103
+3,IF priors_count<=1 AND sex!=Female AND age_norace>=20 THEN score_text==Low,0.8756855575868373,0.07434402332361523
+3,IF sex!=Female AND age>=21 AND priors_count_norace<=1 THEN score_text==Low,0.8158717748240814,0.38581146744412054
+3,IF sex!=Female AND priors_count_norace<=1 AND age_norace>=20 THEN score_text==Low,0.8027006751687922,0.014091350826044735
+4,IF priors_count<=5.0 AND age>=21.0 AND age_cat==Less than 25 THEN score_text=Medium ,0.992932862191,0.44412050534499514
+4,IF age>=21 AND age_cat==Less than 25 AND priors_count_norace<=1 THEN score_text==Medium,0.6528704939919893,0.38386783284742465
+4,IF priors_count<=5 AND age>=21 AND age_cat==Less than 25 THEN score_text==Medium,0.6491228070175439,0.44412050534499514
+4,IF age>=21 AND priors_count_norace<=1 AND age_cat_norace==Less than 25 THEN score_text==Medium,0.6215022091310751,0.3717201166180758
+4,IF priors_count<=5 AND age>=21 AND age_cat_norace==Less than 25 THEN score_text==Medium,0.6186943620178041,0.4319727891156463
+4,IF age_cat==Less than 25 AND priors_count_norace<=1 AND age_norace>=20 THEN score_text==Medium,0.583710407239819,0.012147716229348848
+4,IF priors_count<=5 AND age_cat==Less than 25 AND age_norace>=20 THEN score_text==Medium,0.5792474344355758,0.07240038872691934
+4,IF priors_count_norace<=1 AND age_norace>=20 AND age_cat_norace==Less than 25 THEN score_text==Medium,0.560853199498118,0.0
+4,IF priors_count<=5 AND age_norace>=20 AND age_cat_norace==Less than 25 THEN score_text==Medium,0.5573770491803278,0.06025267249757049
+5,IF age>=52.0 AND priors_count>=8.0 AND sex!=Female THEN score_text=Medium ,0.974358974359,0.44606413994169103
+5,IF age>=52 AND priors_count>=8 AND sex!=Female THEN score_text==Medium,0.987012987012987,0.44606413994169103
+5,IF age>=52 AND sex!=Female AND priors_count_norace>=4 THEN score_text==Medium,0.8444444444444444,0.38581146744412054
+5,IF priors_count>=8 AND sex!=Female AND age_norace>=47 THEN score_text==Medium,0.8137254901960784,0.07434402332361523
+5,IF sex!=Female AND age_norace>=47 AND priors_count_norace>=4 THEN score_text==Medium,0.6434108527131783,0.014091350826044735
+6,IF priors_count<=5.0 AND age>=34.0 THEN score_text=Low ,0.969696969697,0.4319727891156463
+6,IF age>=34 AND priors_count_norace<=1 THEN score_text==Low,0.9992684711046086,0.3717201166180758
+6,IF priors_count<=5 AND age>=34 THEN score_text==Low,0.9992503748125937,0.4319727891156463
+6,IF priors_count<=5 AND age_norace>=32 THEN score_text==Low,0.9855508729680915,0.06025267249757049
+6,IF priors_count_norace<=1 AND age_norace>=32 THEN score_text==Low,0.9736379613356766,0.0
+6,IF age>=34 AND priors_count_norace<=4 THEN score_text==Low,0.8849230769230769,0.3717201166180758
+6,IF priors_count_norace<=4 AND age_norace>=32 THEN score_text==Low,0.8447355652595827,0.0
+7,IF priors_count<=5.0 AND age>=25.0 THEN score_text=Medium ,0.978494623656,0.4319727891156463
+7,IF priors_count_norace<=1 AND age_norace>=26 THEN score_text==Medium,0.08938120702826585,0.0
+7,IF priors_count<=5 AND age_norace>=26 THEN score_text==Medium,0.06782334384858044,0.06025267249757049
+7,IF age>=25 AND priors_count_norace<=1 THEN score_text==Medium,0.05912904514582501,0.3717201166180758
+7,IF priors_count<=5 AND age>=25 THEN score_text==Medium,0.03751030502885408,0.4319727891156463
+8,IF age<=52.0 AND priors_count>=11.0 THEN score_text=High ,0.961538461538,0.4319727891156463
+8,IF age<=52 AND priors_count>=11 THEN score_text==High,0.9765886287625418,0.4319727891156463
+8,IF priors_count>=11 AND age_norace<=47 THEN score_text==High,0.9539473684210527,0.06025267249757049
+8,IF age<=52 AND priors_count_norace>=15 THEN score_text==High,0.9230769230769231,0.3717201166180758
+8,IF age_norace<=47 AND priors_count_norace>=15 THEN score_text==High,0.92,0.0
+8,IF priors_count>=11 AND age_norace<=53 THEN score_text==High,0.8787878787878788,0.06025267249757049
+8,IF age<=52 AND priors_count_norace>=8 THEN score_text==High,0.8685714285714285,0.3717201166180758
+8,IF age_norace<=47 AND priors_count_norace>=8 THEN score_text==High,0.8522727272727273,0.0
+8,IF age_norace<=53 AND priors_count_norace>=15 THEN score_text==High,0.8070175438596491,0.0
+8,IF age_norace<=53 AND priors_count_norace>=8 THEN score_text==High,0.7614213197969543,0.0
+8,IF age<=52 AND priors_count_norace>=4 THEN score_text==High,0.6456086286594761,0.3717201166180758
+8,IF age_norace<=47 AND priors_count_norace>=4 THEN score_text==High,0.6261261261261262,0.0
+8,IF age_norace<=53 AND priors_count_norace>=4 THEN score_text==High,0.5832167832167832,0.0
+9,IF age>=34.0 AND priors_count>=8.0 AND sex!=Female THEN score_text=Medium ,0.977011494253,0.44606413994169103
+9,IF age>=34 AND priors_count>=8 AND sex!=Female THEN score_text==Medium,0.53156146179402,0.44606413994169103
+9,IF age>=34 AND sex!=Female AND priors_count_norace>=4 THEN score_text==Medium,0.4519774011299435,0.38581146744412054
+9,IF priors_count>=8 AND sex!=Female AND age_norace>=32 THEN score_text==Medium,0.41237113402061853,0.07434402332361523
+9,IF sex!=Female AND age_norace>=32 AND priors_count_norace>=4 THEN score_text==Medium,0.3779697624190065,0.014091350826044735
+10,IF priors_count>=8.0 AND age<=34.0 AND c_charge_desc!=Possession of Cocaine THEN score_text=High ,0.98347107438,0.4922254616132168
+10,IF priors_count>=8 AND age<=34 AND c_charge_desc!=Possession of Cocaine THEN score_text==High,0.9732824427480916,0.4922254616132168
+10,IF c_charge_desc!=Possession of Cocaine AND priors_count_norace>=8 AND age_norace<=32 THEN score_text==High,0.9466666666666667,0.06025267249757049
+10,IF priors_count>=8 AND c_charge_desc!=Possession of Cocaine AND age_norace<=32 THEN score_text==High,0.9434628975265018,0.12050534499514098
+10,IF age<=34 AND c_charge_desc!=Possession of Cocaine AND priors_count_norace>=8 THEN score_text==High,0.927536231884058,0.4319727891156463
+10,IF age<=34 AND c_charge_desc!=Possession of Cocaine AND priors_count_norace>=4 THEN score_text==High,0.7596439169139466,0.4319727891156463
+10,IF c_charge_desc!=Possession of Cocaine AND priors_count_norace>=4 AND age_norace<=32 THEN score_text==High,0.7465181058495822,0.06025267249757049
+11,IF age>=34.0 AND priors_count<=11.0 AND c_charge_desc!=Poss Wep Conv Felon THEN score_text=Low ,0.98275862069,0.4922254616132168
+11,IF age>=34 AND priors_count<=11 AND c_charge_desc!=Poss Wep Conv Felon THEN score_text==Low,0.9144486692015209,0.4922254616132168
+11,IF age>=34 AND c_charge_desc!=Poss Wep Conv Felon AND priors_count_norace<=4 THEN score_text==Low,0.8852560148056755,0.4319727891156463
+11,IF priors_count<=11 AND c_charge_desc!=Poss Wep Conv Felon AND age_norace>=32 THEN score_text==Low,0.8765679879578525,0.12050534499514098
+11,IF c_charge_desc!=Poss Wep Conv Felon AND age_norace>=32 AND priors_count_norace<=4 THEN score_text==Low,0.8449197860962567,0.06025267249757049
+12,IF age>=21.0 AND c_charge_desc!=Possession of Cocaine THEN score_text=Medium ,0.983606557377,0.4319727891156463
+12,IF age>=21 AND c_charge_desc!=Possession of Cocaine THEN score_text==Medium,0.21235833783054506,0.4319727891156463
+12,IF c_charge_desc!=Possession of Cocaine AND age_norace>=20 THEN score_text==Medium,0.21162366432108418,0.06025267249757049
+13,IF priors_count>=1.0 AND sex!=Female AND age_cat!=25 - 45 THEN score_text=High ,0.966666666667,0.08649173955296408
+13,IF sex!=Female AND age_cat!=25 - 45 AND priors_count_norace>=4 THEN score_text==High,0.3412322274881517,0.026239067055393583
+13,IF priors_count>=1 AND sex!=Female AND age_cat!=25 - 45 THEN score_text==High,0.13744588744588745,0.08649173955296408
+13,IF sex!=Female AND age_cat!=25 - 45 AND priors_count_norace>=1 THEN score_text==High,0.08716540837336993,0.026239067055393583
+14,IF sex!=Female AND age_cat!=25 - 45 THEN score_text=Low ,0.964285714286,0.026239067055393583
+14,IF sex!=Female AND age_cat!=25 - 45 THEN score_text==Low,0.6039807824296499,0.026239067055393583
+15,IF TRUE THEN score_text=Medium ,0.795454545455,0.0

@@ -38,25 +38,25 @@ def make_cn2_rules(orig_data, merged, output, beam_width, min_covered_examples, 
 	with open(r"{}.pickle".format(output), "wb") as output_file:     
 		_pickle.dump(classifier_orig.rule_list, output_file)
 
-#	dataset = str(merged)
-#	print("Writing rules to file")
-#	# write rules to file
-#	with open("Rules/"+output+".csv", 'w') as csvfile:
-#		rules = csv.writer(csvfile)
-#		# Create rules file from repaired data
-#		rules.writerow(["Label","Rules","Quality","Score"])
-#		rule_identifier = 0
-#		for rule_num, rule in enumerate(classifier_orig.rule_list):
-#			rules.writerow([rule_identifier, str(rule), rule.quality, rule.score])
-#			if rule.selectors:
-#				print("Expanding rule {}".format(rule_num))
-#				complement_rules = find_and_evaluate_complement_rules(rule, dataset, scores, tag)
-#				print("Writing expanded rules for rule {}".format(rule_num))
-#				for cr in complement_rules:
-#					rules.writerow([rule_identifier, cr[0], cr[1], cr[2]])
-#			rule_identifier += 1	
-#	# Open files
-#	os.system('gedit Rules/'+output+".csv")
+	dataset = str(merged)
+	print("Writing rules to file")
+	# write rules to file
+	with open("Rules/"+output+".csv", 'w') as csvfile:
+		rules = csv.writer(csvfile)
+		# Create rules file from repaired data
+		rules.writerow(["Label","Rules","Quality","Score"])
+		rule_identifier = 0
+		for rule_num, rule in enumerate(classifier_orig.rule_list):
+			rules.writerow([rule_identifier, str(rule), rule.quality, rule.score])
+			if rule.selectors:
+				print("Expanding rule {}".format(rule_num))
+				complement_rules = find_and_evaluate_complement_rules(rule, dataset, scores, tag)
+				print("Writing expanded rules for rule {}".format(rule_num))
+				for cr in complement_rules:
+					rules.writerow([rule_identifier, cr[0], cr[1], cr[2]])
+			rule_identifier += 1	
+	# Open files
+	os.system('gedit Rules/'+output+".csv")
 
 """
 -find obscure column name, find all combination of attributes, find all values for each combo, calculate laplace and discrimination score, write rules
@@ -91,7 +91,9 @@ def expand_and_write_rules(pickle_rule_list, merged, output, summary, tag):
 		# Open files
 		os.system('gedit Rules/'+output+".csv")
 
-def parse_rule(rule):
+def parse_rule(rule, dataset):
+	df = pd.read_csv(dataset)
+	df.columns = df.columns.str.replace('-', '_')
 	# separate the string representation of the rule 
 	# 	into its antecedent and consequent parts
 	attributes = rule.domain.attributes
@@ -109,6 +111,7 @@ def parse_rule(rule):
 	for selector in antecedent:
 		op = selector[1]
 		query_op = "==" if (op==(">=") or op=="<=") else selector[1]
+		val = selector[2]
 		rule_structure = ""
 		full_rule_structure = ""
 		try:
@@ -116,11 +119,12 @@ def parse_rule(rule):
 			rule_structure = "{} {} {}".format(selector[0], query_op, val)
 			full_rule_structure = "{} {} {}".format(selector[0], op, val)
 		except:
-			rule_structure = "{} {} '{}'".format(selector[0], query_op, selector[2])
-			full_rule_structure = "{} {} '{}'".format(selector[0], op, selector[2])
+			rule_structure = "{} {} '{}'".format(selector[0], query_op, val)
+			full_rule_structure = "{} {} '{}'".format(selector[0], op, val)
 		rule_query += rule_structure + " & "
 		full_rule_query += full_rule_structure + " & "
-		group_values[selector[0]] = (rule_structure, op)
+		group_values[selector[0]] = (rule_structure, op, val)
+
 	rule_query = rule_query[:-3]
 	full_rule_query = full_rule_query[:-3]
 	return rule_query, full_rule_query, parsed_outcome, group_values
@@ -132,21 +136,23 @@ def find_and_evaluate_complement_rules(rule, dataset, scores, tag):
 	rule_form = set(original)
 	obscured_and_original_cols = original + [orig+tag for orig in original]
 	# parse rule into format for querying
-	rule_query, full_rule_query, parsed_outcome, group_values = parse_rule(rule)
+	rule_query, full_rule_query, parsed_outcome, group_values = parse_rule(rule, dataset)
 	
 	# find the section of data covered by the original rule
 	df = pd.read_csv(dataset)
 	df.columns = df.columns.str.replace('-', '_')
 	covered_data = df.query(rule_query)
-	#print(rule_query)
-	#print(full_rule_query)
+
 	if len(covered_data) == 0:
 		covered_data = df.query(full_rule_query)
+
 	# find values for each feature
 	selectors = []
 	for col in obscured_and_original_cols:
-		unique_vals = covered_data[col].unique()
-		op = group_values[col.split(tag)[0]][1]
+		split_col = col.split(tag)[0]
+		specific_covered_data = covered_data.loc[covered_data[split_col] == group_values[split_col][2]]
+		unique_vals = specific_covered_data[col].unique() if col not in original else [group_values[col][2]]
+		op = group_values[split_col][1]
 		for unique_val in unique_vals:
 			try:
 				int(unique_val)
@@ -267,3 +273,7 @@ if __name__ == "__main__":
 
 	make_cn2_rules(orig_data, repaired_data, output, beam_width, min_covered_examples, max_rule_length, scores, tag)
 
+"""
+python3 -c "import make_cn2_rules as foo; foo.expand_and_write_rules('compas_race_j48.pickle', './Data/compas2/race_j48.csv', 'compas_race_j48', './Data/compas2/compas_j48_summary.txt','_norace')"
+
+"""
