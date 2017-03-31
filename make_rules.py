@@ -273,6 +273,7 @@ def cn2_complements(orig_data, output, beam_width, min_covered_examples, max_rul
 	# produce rules from unrepaired data
 	classifier_orig = learner_orig(original_data)
 
+
 	print("Writing rules to file")
 	# write rules to file
 	with open("Rules/"+output+"-cn2", 'w') as rules:

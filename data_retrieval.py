@@ -497,7 +497,7 @@ def compas2_retrieval_and_merger(orig_train, predictions_file, repaired_file, fe
 	next(predictions_reader)
 
 	# Open new file for writing original data
-	orig_file = open("./Data/compas2/original_{}.tab".format(learner), 'w') 
+	orig_file = open("./Data/compas2/original_{}_test.tab".format(learner), 'w') 
 
 	# Get column names 
 	col_names = next(orig_train_reader)
@@ -516,7 +516,7 @@ def compas2_retrieval_and_merger(orig_train, predictions_file, repaired_file, fe
 	next(repaired_reader)
 
 	# Open new file for writing merged data
-	with open("./Data/compas2/{}_{}.csv".format(feature, learner), 'w') as file:
+	with open("./Data/compas2/{}_{}_test.csv".format(feature, learner), 'w') as file:
 		orig_train.seek(0)
 		next(orig_train_reader)
 		predictions.seek(0)
@@ -578,13 +578,17 @@ if __name__ == "__main__":
 	#repaired_file = "./Data/predictions/relationship_train_{}.data".format(learner)
 	#feature = "relationship"
 	orig_train = "./Data/predictions/compas_{}/original_train_data.csv".format(learner)
+	orig_test = "./Data/predictions/compas_{}/original_test_data.csv".format(learner)
 	predictions ="./Data/predictions/compas_{}/original_train_data.predictions".format(learner)
+	predictions_test ="./Data/predictions/compas_{}/original_test_data.predictions".format(learner)
 	#orig_file = "./Audit/audits/1489762753.74/Random_Feature.audit.test.repaired_0.0.data"
 	repaired_file = "./Data/predictions/compas_race_{}_data.csv".format(learner)
+	repaired_file_test = "./Data/predictions/compas_race_{}_test.csv".format(learner)
 	feature = "race"
 	#dir_ = "./Data"
 	#for i in attribs:
 	#	retrieval_and_merger(orig_file, dir_, repaired_dir, i)
-	compas2_retrieval_and_merger(orig_train, predictions, repaired_file, feature, learner)
+	#compas2_retrieval_and_merger(orig_train, predictions, repaired_file, feature, learner)
+	compas2_retrieval_and_merger(orig_test, predictions_test, repaired_file_test, feature, learner)
 	#adult_retrieval_and_merger(orig_file, repaired_dir)
 
