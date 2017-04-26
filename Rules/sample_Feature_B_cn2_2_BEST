@@ -1,0 +1,2 @@
+0 & IF Feature A (i)>=3000.0 THEN Outcome=B & 0.4975 & 0.999666888741 \\ 
+1 &  THEN Outcome=A & 0.0 & 0.5 \\ 

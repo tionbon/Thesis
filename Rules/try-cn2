@@ -1,0 +1,91 @@
+******** ./Data/bonus.tab ********
+Rules	Score
+IF Gender==F AND Race==B AND Education==Highschool THEN Bonus=no  & -0.6157667047517474 & -0.6157667047517474 
+IF Warnings==medium AND Education==Bachelors AND Gender==F THEN Bonus=no  & -0.6713733382678762 & -0.6713733382678762 
+IF Gender==F AND Race==B AND Warnings==low THEN Bonus=no  & -0.7379864341427602 & -0.7379864341427602 
+IF Gender==F AND Education==Highschool AND Warnings==low THEN Bonus=no  & -0.7382848661434506 & -0.7382848661434506 
+IF Warnings==medium AND Education==Bachelors AND Race!=B THEN Bonus=no  & -0.7484492947832908 & -0.7484492947832908 
+IF Warnings==medium AND Education==Highschool AND Race==B THEN Bonus=no  & -0.7504928681718372 & -0.7504928681718372 
+IF Warnings==high AND Education==Masters AND Gender==F THEN Bonus=no  & -0.755657235626791 & -0.755657235626791 
+IF Warnings==high AND Education==Bachelors AND Gender!=F THEN Bonus=no  & -0.7666458451819869 & -0.7666458451819869 
+IF Education==Highschool AND Gender==F AND Warnings==medium THEN Bonus=no  & -0.7726570871457086 & -0.7726570871457086 
+IF Years==>6 AND Education==Masters AND Warnings==low THEN Bonus=no  & -0.8000847445412096 & -0.8000847445412096 
+IF Race==B AND Education==Bachelors AND Years==>6 THEN Bonus=no  & -0.802859058269799 & -0.802859058269799 
+IF Race==B AND Gender==F AND Years==<3 THEN Bonus=no  & -0.8071675554288905 & -0.8071675554288905 
+IF Race==B AND Years==3-6 AND Warnings==low THEN Bonus=no  & -0.8088678222620949 & -0.8088678222620949 
+IF Years==>6 AND Warnings==high AND Education==Masters THEN Bonus=no  & -0.814960349490842 & -0.814960349490842 
+IF Education==Highschool AND Race!=B AND Warnings==low THEN Bonus=no  & -0.8203636429576731 & -0.8203636429576731 
+IF Years==>6 AND Education==Highschool AND Gender==F THEN Bonus=no  & -0.8256265261578954 & -0.8256265261578954 
+IF Warnings==medium AND Education==Bachelors AND Years==<3 THEN Bonus=no  & -0.8296071030882032 & -0.8296071030882032 
+IF Race==B AND Years==3-6 AND Education==Masters THEN Bonus=no  & -0.8314743880097293 & -0.8314743880097293 
+IF Warnings==medium AND Gender!=F AND Years==3-6 THEN Bonus=no  & -0.8275953315947242 & -0.8275953315947242 
+IF Education==Highschool AND Years==3-6 AND Gender==F THEN Bonus=no  & -0.8314743880097293 & -0.8314743880097293 
+IF Years==>6 AND Gender!=F AND Education==Masters THEN Bonus=no  & -0.8323322690121193 & -0.8323322690121193 
+IF Gender==F AND Warnings==low AND Years==<3 THEN Bonus=no  & -0.8488687562058559 & -0.8488687562058559 
+IF Education==Masters AND Warnings==low AND Race!=B THEN Bonus=no  & -0.8485481782946158 & -0.8485481782946158 
+IF Warnings==high AND Education==Bachelors AND Years==3-6 THEN Bonus=no  & -0.8507707040532599 & -0.8507707040532599 
+IF Warnings==high AND Years!=3-6 AND Education==Masters THEN Bonus=no  & -0.8541802051521676 & -0.8541802051521676 
+IF Gender==F AND Education==Bachelors AND Years==3-6 THEN Bonus=no  & -0.8582307926411411 & -0.8582307926411411 
+IF Years==<3 AND Race!=B AND Warnings==low THEN Bonus=no  & -0.8582307926411411 & -0.8582307926411411 
+IF Education==Highschool AND Years==3-6 AND Race!=B THEN Bonus=no  & -0.863120568566631 & -0.863120568566631 
+IF Years==>6 AND Warnings==high AND Race==B THEN Bonus=no  & -0.866725613094959 & -0.866725613094959 
+IF Years==<3 AND Race!=B AND Gender!=F THEN Bonus=no  & -0.8687212463394045 & -0.8687212463394045 
+IF Years==>6 AND Warnings==high AND Gender!=F THEN Bonus=no  & -0.8739810481273578 & -0.8739810481273578 
+IF Race==B AND Gender==F THEN Bonus=no  & -0.8756633923230397 & -0.8756633923230397 
+IF Years==>6 AND Warnings==high THEN Bonus=no  & -0.8835850861052532 & -0.8835850861052532 
+IF Education==Highschool AND Warnings==medium THEN Bonus=no  & -0.8865408928220899 & -0.8865408928220899 
+IF Race==B AND Years==3-6 THEN Bonus=no  & -0.8874179270685691 & -0.8874179270685691 
+IF Years==>6 AND Race==B THEN Bonus=no  & -0.8944518845341283 & -0.8944518845341283 
+IF Race==B AND Warnings==medium THEN Bonus=no  & -0.9108783787500366 & -0.9108783787500366 
+IF Race==B AND Education==Masters THEN Bonus=no  & -0.9113423759758417 & -0.9113423759758417 
+IF Warnings!=low AND Education==Bachelors THEN Bonus=no  & -0.9117517586347537 & -0.9117517586347537 
+IF Race==B AND Education!=Highschool THEN Bonus=no  & -0.9256859869821299 & -0.9256859869821299 
+IF Years==>6 AND Gender!=F THEN Bonus=no  & -0.9275265884316758 & -0.9275265884316758 
+IF Years==>6 AND Education==Bachelors THEN Bonus=no  & -0.933025295359291 & -0.933025295359291 
+IF Years!=3-6 AND Warnings==low THEN Bonus=no  & -0.933025295359291 & -0.933025295359291 
+IF Years==>6 THEN Bonus=no  & -0.9389320105807949 & -0.9389320105807949 
+IF Warnings==medium AND Years==<3 THEN Bonus=no  & -0.9480782435939055 & -0.9480782435939055 
+IF Gender==F AND Education==Highschool THEN Bonus=no  & -0.9486131982385806 & -0.9486131982385806 
+IF Education==Bachelors THEN Bonus=yes  & -0.9564574047992594 & -0.9564574047992594 
+IF Gender==F THEN Bonus=no  & -0.9580420222262995 & -0.9580420222262995 
+IF Race==B THEN Bonus=no  & -0.9684610087601622 & -0.9684610087601622 
+IF TRUE THEN Bonus=no  & -0.9876925088958034 & -0.9876925088958034 
+
+
+******** ./Data/Race_merged.tab ********
+Rules	Score
+IF Education!=Masters AND Gender-noRace==M AND Warnings-noRace!=high THEN Bonus=no  & 0.0 & 0.7658767772511849 
+IF Warnings-noRace==medium AND Gender!=M AND Education-noRace!=Masters THEN Bonus=no  & 0.0 & 0.7682926829268293 
+IF Education==Bachelors AND Education-noRace==Highschool AND Warnings-noRace!=high THEN Bonus=no  & 0.0 & 0.7905405405405406 
+IF Education-noRace!=Highschool AND Gender!=M AND Warnings-noRace!=high THEN Bonus=no  & 0.0 & 0.75 
+IF Years==<3 AND Education==Bachelors AND Education-noRace==Highschool THEN Bonus=no  & 0.0 & 0.8888888888888888 
+IF Warnings-noRace==low AND Years==>6 AND Years-noRace==>6 THEN Bonus=no  & 0.0 & 0.8714285714285714 
+IF Years!=3-6 AND Education-noRace==Highschool AND Warnings-noRace!=high THEN Bonus=no  & 0.0 & 0.756 
+IF Warnings-noRace==high AND Education==Highschool AND Warnings!=high THEN Bonus=no  & 0.0 & 0.7570093457943925 
+IF Years==>6 AND Years-noRace==>6 AND Warnings-noRace==high THEN Bonus=no  & 0.0 & 0.7394957983193278 
+IF Warnings!=high AND Gender!=M AND Education-noRace==Bachelors THEN Bonus=no  & 0.0 & 0.8787878787878788 
+IF Education-noRace==Highschool AND Years-noRace==>6 AND Warnings-noRace==high THEN Bonus=no  & 0.0 & 0.75 
+IF Gender!=M AND Education==Highschool AND Race!=W THEN Bonus=no  & 0.0 & 0.8809523809523809 
+IF Years!=<3 AND Years-noRace==>6 AND Warnings-noRace==high THEN Bonus=no  & 0.0 & 0.75 
+IF Gender-noRace==M AND Education!=Highschool AND Warnings-noRace==high THEN Bonus=no  & 0.0 & 0.7459016393442623 
+IF Gender-noRace!=M AND Years==>6 AND Warnings-noRace==high THEN Bonus=no  & 0.0 & 0.7352941176470589 
+IF Education-noRace==Highschool AND Warnings-noRace==medium AND Education==Masters THEN Bonus=no  & 0.0 & 0.8 
+IF Race!=W AND Education!=Bachelors AND Warnings-noRace==high THEN Bonus=no  & 0.0 & 0.7105263157894737 
+IF Years-noRace==3-6 AND Warnings-noRace==high AND Years==3-6 THEN Bonus=no  & 0.0 & 0.717948717948718 
+IF Education==Highschool AND Warnings==high AND Warnings-noRace==low THEN Bonus=no  & 0.0 & 0.8163265306122449 
+IF Warnings-noRace!=low AND Race!=W AND Education==Masters THEN Bonus=no  & 0.0 & 0.7884615384615384 
+IF Education-noRace!=Bachelors AND Race!=W AND Years==>6 THEN Bonus=no  & 0.0 & 0.7931034482758621 
+IF Warnings!=low AND Years-noRace==>6 AND Warnings-noRace==low THEN Bonus=no  & 0.0 & 0.7213114754098361 
+IF Years-noRace!=3-6 AND Education==Bachelors AND Warnings==high THEN Bonus=no  & 0.0 & 0.74 
+IF Years==<3 AND Gender-noRace!=M AND Warnings-noRace==high THEN Bonus=no  & 0.0 & 0.6333333333333333 
+IF Education-noRace==Masters AND Education!=Highschool AND Warnings==medium THEN Bonus=no  & 0.0 & 0.7272727272727273 
+IF Education-noRace!=Highschool AND Gender!=M AND Years-noRace!=>6 THEN Bonus=no  & 0.0 & 0.6666666666666666 
+IF Education-noRace!=Masters AND Race!=B AND Warnings-noRace==low THEN Bonus=no  & 0.0 & 0.6595744680851063 
+IF Education-noRace!=Bachelors AND Warnings!=high AND Years-noRace!=3-6 THEN Bonus=no  & 0.0 & 0.6545454545454545 
+IF Warnings-noRace!=high AND Warnings==low AND Years-noRace!=<3 THEN Bonus=no  & 0.0 & 0.6052631578947368 
+IF Years!=3-6 AND Warnings!=medium AND Warnings-noRace==medium THEN Bonus=no  & 0.0 & 0.6842105263157895 
+IF Education-noRace==Bachelors AND Years!=3-6 AND Gender-noRace!=M THEN Bonus=no  & 0.0 & 0.6956521739130435 
+IF Education-noRace!=Bachelors AND Warnings==high AND Years-noRace!=>6 THEN Bonus=no  & 0.0 & 0.6521739130434783 
+IF TRUE THEN Bonus=no  & 0.0 & 0.7469012395041983 
+
+

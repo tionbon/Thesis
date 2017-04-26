@@ -1,0 +1,80 @@
+******** ./Data/bonus.tab ********
+Rules	Score
+IF Gender==F AND Race==B AND Education==Highschool THEN Bonus=no 	0.0
+IF Warnings==medium AND Education==Bachelors AND Gender==F THEN Bonus=no 	0.0
+IF Gender==F AND Race==B AND Warnings==low THEN Bonus=no 	0.0
+IF Gender==F AND Education==Highschool AND Warnings==low THEN Bonus=no 	0.0
+IF Warnings==medium AND Education==Bachelors AND Race!=B THEN Bonus=no 	0.0
+IF Warnings==medium AND Education==Highschool AND Race==B THEN Bonus=no 	0.0
+IF Warnings==high AND Education==Masters AND Gender==F THEN Bonus=no 	0.0
+IF Warnings==high AND Education==Bachelors AND Gender!=F THEN Bonus=no 	0.0
+IF Education==Highschool AND Gender==F AND Warnings==medium THEN Bonus=no 	0.0
+IF Years==>6 AND Education==Masters AND Warnings==low THEN Bonus=no 	0.0
+IF Race==B AND Education==Bachelors AND Years==>6 THEN Bonus=no 	0.0
+IF Race==B AND Years==3-6 AND Warnings==low THEN Bonus=no 	0.0
+IF Race==B AND Gender==F AND Years==<3 THEN Bonus=no 	0.0
+IF Years==>6 AND Warnings==high AND Education==Masters THEN Bonus=no 	0.0
+IF Education==Highschool AND Race!=B AND Warnings==low THEN Bonus=no 	0.0
+IF Years!=<3 AND Education==Highschool AND Gender==F THEN Bonus=no 	0.0
+IF Warnings==medium AND Gender!=F AND Years==3-6 THEN Bonus=no 	0.0
+IF Race==B AND Years==3-6 AND Education==Masters THEN Bonus=no 	0.0
+IF Years==>6 AND Gender!=F AND Education==Masters THEN Bonus=no 	0.0
+IF Education==Bachelors AND Warnings==medium THEN Bonus=no 	0.0
+IF Years==<3 AND Warnings==low AND Race!=B THEN Bonus=no 	0.0
+IF Warnings==high AND Education==Bachelors AND Years==3-6 THEN Bonus=no 	0.0
+IF Education==Masters AND Warnings==low AND Race!=B THEN Bonus=no 	0.0
+IF Years==<3 AND Gender!=F AND Race!=B THEN Bonus=no 	0.0
+IF Gender==F AND Education==Bachelors AND Years==3-6 THEN Bonus=no 	0.0
+IF Years==>6 AND Warnings==high AND Gender!=F THEN Bonus=no 	0.0
+IF Education==Highschool AND Years==3-6 AND Race!=B THEN Bonus=no 	0.0
+IF Race==B AND Gender==F THEN Bonus=no 	0.0
+IF Warnings!=low AND Education!=Masters AND Years!=<3 THEN Bonus=no 	0.0
+IF Race==B AND Education==Masters AND Warnings==high THEN Bonus=no 	0.0
+IF Years==>6 AND Race==B THEN Bonus=no 	0.0
+IF Race==B AND Education==Masters THEN Bonus=no 	0.0
+IF Warnings!=low AND Education==Bachelors THEN Bonus=no 	0.0
+IF Years!=3-6 AND Education==Bachelors AND Gender!=F THEN Bonus=no 	0.0
+IF Years!=3-6 AND Warnings==low THEN Bonus=no 	0.0
+IF Years==>6 THEN Bonus=no 	0.0
+IF Gender==F AND Years==<3 THEN Bonus=no 	0.0
+IF Education==Bachelors THEN Bonus=yes 	0.0
+IF Gender==F THEN Bonus=no 	0.0
+IF Race==B THEN Bonus=no 	0.0
+IF TRUE THEN Bonus=no 	0.0
+
+
+******** ./Data/Gender_merged.tab ********
+Rules	Score
+IF Race!=W AND Years-noGender!=>6 AND Warnings-noGender==medium THEN Bonus=no 	0.0
+IF Years-noGender==3-6 AND Education==Highschool AND Warnings!=high THEN Bonus=no 	0.0
+IF Education-noGender==Bachelors AND Years!=3-6 AND Warnings-noGender==high THEN Bonus=no 	0.0
+IF Education-noGender==Highschool AND Years-noGender==>6 AND Warnings-noGender==high THEN Bonus=no 	0.0
+IF Years!=3-6 AND Warnings==medium AND Warnings-noGender!=high THEN Bonus=no 	0.0
+IF Education-noGender==Bachelors AND Gender!=M AND Warnings-noGender!=high THEN Bonus=no 	0.0
+IF Gender!=M AND Education!=Masters AND Warnings-noGender!=high THEN Bonus=no 	0.0
+IF Education!=Bachelors AND Education-noGender==Highschool AND Warnings-noGender!=high THEN Bonus=no 	0.0
+IF Warnings-noGender!=high AND Warnings==high AND Education-noGender==Highschool THEN Bonus=no 	0.0
+IF Warnings==high AND Gender!=M AND Years-noGender==<3 THEN Bonus=no 	0.0
+IF Race-noGender==W AND Years-noGender==>6 AND Warnings==medium THEN Bonus=no 	0.0
+IF Years-noGender!=<3 AND Gender==M AND Warnings-noGender==high THEN Bonus=no 	0.0
+IF Gender==F AND Race-noGender!=W AND Warnings-noGender==low THEN Bonus=no 	0.0
+IF Years==>6 AND Warnings-noGender==low AND Years-noGender==>6 THEN Bonus=no 	0.0
+IF Warnings-noGender==medium AND Education==Highschool AND Warnings!=medium THEN Bonus=no 	0.0
+IF Years-noGender==<3 AND Education==Masters AND Warnings-noGender==medium THEN Bonus=no 	0.0
+IF Warnings-noGender!=high AND Warnings==high AND Years==<3 THEN Bonus=no 	0.0
+IF Years!=<3 AND Education-noGender==Masters AND Warnings-noGender==high THEN Bonus=no 	0.0
+IF Race-noGender==B AND Education-noGender==Masters AND Warnings-noGender!=low THEN Bonus=no 	0.0
+IF Race==W AND Education==Masters AND Warnings-noGender==high THEN Bonus=no 	0.0
+IF Years-noGender==>6 AND Warnings!=high AND Warnings-noGender!=medium THEN Bonus=no 	0.0
+IF Years-noGender!=>6 AND Years==<3 AND Race==W THEN Bonus=no 	0.0
+IF Warnings-noGender!=high AND Years-noGender==3-6 AND Race!=W THEN Bonus=no 	0.0
+IF Years==>6 AND Years-noGender!=>6 AND Race-noGender!=W THEN Bonus=no 	0.0
+IF Years-noGender==3-6 AND Race==W AND Warnings!=high THEN Bonus=no 	0.0
+IF Education==Bachelors AND Race!=W AND Education-noGender!=Bachelors THEN Bonus=no 	0.0
+IF Education-noGender!=Highschool AND Years!=3-6 AND Warnings!=high THEN Bonus=no 	0.0
+IF Education-noGender!=Highschool AND Years-noGender!=>6 AND Warnings-noGender!=medium THEN Bonus=no 	0.0
+IF Warnings-noGender!=high AND Warnings!=medium AND Years-noGender!=3-6 THEN Bonus=no 	0.0
+IF Years!=<3 AND Years-noGender!=>6 THEN Bonus=no 	0.0
+IF TRUE THEN Bonus=no 	0.0
+
+

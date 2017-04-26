@@ -1,0 +1,862 @@
+Label,Rules,Quality,Score
+0,IF priors_count<=2.0 AND age>=53.0 AND priors_count<=1.0 AND race!=Caucasian AND c_charge_desc!=Felony Petit Theft THEN score_text=Low ,0.979591836735,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.9739130434782609,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.9736842105263158,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.9732142857142857,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.9732142857142857,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.9732142857142857,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.9732142857142857,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.9732142857142857,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.9732142857142857,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.9722222222222222,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.9722222222222222,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.9722222222222222,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.9711538461538461,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.9711538461538461,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.9711538461538461,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Battery THEN score_text==Low,0.9692307692307692,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Battery THEN score_text==Low,0.9692307692307692,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Battery THEN score_text==Low,0.9692307692307692,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.967391304347826,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.967391304347826,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.967391304347826,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.9333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.9318181818181818,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.9318181818181818,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.9318181818181818,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.9318181818181818,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.9285714285714286,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.925,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Battery THEN score_text==Low,0.9230769230769231,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.9210526315789473,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race!=Caucasian AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Other AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Hispanic AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=African-American AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc!=Felony Petit Theft THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault w/Firearm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Unlaw LicTag/Sticker Attach THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicit Purchase Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=arrest case no charge THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession Of Heroin THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving While License Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession Burglary Tools THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft (Motor Vehicle) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI Level 0.15 Or Minor In Veh THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Battery THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI - Enhanced THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=License Suspended Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault W/Dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Felony Driving While Lic Suspd THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Neglect/Abuse Elderly Person THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession of Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft in the 3rd Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DUI Property Damage/Injury THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=False Imprisonment THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving Under The Influence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=DWLS Susp/Cancel Revoked THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicitation On Felony 3 Deg THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Petit Theft $100- $300 THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Pos Cannabis W/Intent Sel/Del THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Poss Cocaine/Intent To Del/Sel THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Resist/Obstruct W/O Violence THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Harass Witness/Victm/Informnt THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Tresspass in Structure or Conveyance THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Possession of Cannabis THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Battery on Law Enforc Officer THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Agg Battery Grt/Bod/Harm THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Stalking (Aggravated) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Assault W/dead Weap THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Felony Battery (Dom Strang) THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Uttering a Forged Instrument THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Disorderly Intoxication THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Grand Theft in the 1st Degree THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Solicit Deliver Cocaine THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Agg Assault W/int Com Fel Dome THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Driving License Suspended THEN score_text==Low,0.3333333333333333,0.7915451895043732
+0,IF priors_count<=2 AND age_norace>=53 AND priors_count_norace<=1 AND race_norace!=Asian AND c_charge_desc_norace!=Aggravated Battery / Pregnant THEN score_text==Low,0.3333333333333333,0.7915451895043732

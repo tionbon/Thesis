@@ -1,0 +1,5 @@
+0,IF Feature A (i)>=3000.0 THEN Outcome=B,0.9996668887408394,0.49750000000000005
+0,IF Feature A (i)>=3000.0 THEN Outcome=B,0.9996668887408394,0.49750000000000005
+0,IF Feature A (i)-noFeature_A_(i)>=4787 THEN Outcome=B,0.5,0.0
+1, THEN Outcome=A,0.5,0.0
+1, THEN Outcome=A,0.5,0.0

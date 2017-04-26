@@ -9,6 +9,7 @@ def modify_acc(rule_list, test_data, output):
 		mod_rules = csv.writer(csvfile)
 
 		df = pd.read_csv(test_data)
+		df.columns = df.columns.str.replace('-','_')
 		with open(rule_list, 'r') as csvfile2:
 			rules = csv.reader(csvfile2)
 			# write header
@@ -16,16 +17,18 @@ def modify_acc(rule_list, test_data, output):
 
 			# find new accuracy
 			for i, rule in enumerate(rules):
-				query, query_with_outcome = parse_rule(rule[1])
+				if rule[1][3:7] != "TRUE":
+					rule_mod = rule[1]
+					query, query_with_outcome = parse_rule(rule_mod)
 
-				# calculate new quality
-				Nclass = len(df.query(query_with_outcome))
-				Ntotal = len(df.query(query))
-				k = 3
-				laplace = (Nclass + 1)/float(Ntotal + k)
-				
-				rule[2] = laplace
-				mod_rules.writerow(rule)
+					# calculate new quality
+					Nclass = len(df.query(query_with_outcome))
+					Ntotal = len(df.query(query))
+					k = 2
+					laplace = (Nclass + 1)/float(Ntotal + k)
+					
+					rule[2] = laplace 
+					mod_rules.writerow(rule)
 
 def parse_rule(rule):
 	antecedent = rule.split(" THEN ")[0][3:]
@@ -44,24 +47,24 @@ def parse_rule(rule):
 		try:
 			parsed_cond = cond.split("==")
 			op = "=="
-			feature = parsed_cond[0]
+			feature = parsed_cond[0].replace('-','_')
 			value = parsed_cond[1]
 		except IndexError:
 			try:
 				parsed_cond = cond.split("!=")
 				op = "!="
-				feature = parsed_cond[0]
+				feature = parsed_cond[0].replace('-','_')
 				value = parsed_cond[1]
 			except IndexError:
 				try:
 					parsed_cond = cond.split(">=")
 					op = ">="
-					feature = parsed_cond[0]
+					feature = parsed_cond[0].replace('-','_')
 					value = parsed_cond[1]
 				except IndexError:
 					parsed_cond = cond.split("<=")
 					op = "<="
-					feature = parsed_cond[0]
+					feature = parsed_cond[0].replace('-','_')
 					value = parsed_cond[1]
 
 		try:

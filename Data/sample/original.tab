@@ -1,4 +1,4 @@
-Feature_A	Feature_B	Feature_C	Constant_Feature	Random_Feature	Outcome
+Feature A (i)	Feature B (2i)	Feature C (-i)	Constant Feature	Random Feature	Outcome
 c	c	c	c	c	d
 					class
 0	0	0	1	0.3581485321045217	A

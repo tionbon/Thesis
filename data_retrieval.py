@@ -70,7 +70,7 @@ def retrieval_and_merger(orig_file, dir_, repaired_dir, repaired_attrib):
 	repaired_reader = csv.reader(f1)
 
 	# Open new file for writing
-	repaired_file = open("{}/{}_indirect_on_one.tab".format(identifier, repaired_attrib), 'w') 
+	repaired_file = open("{}/{}_indirect.tab".format(identifier, repaired_attrib), 'w') 
 
 	# Merge Headers
 	orig_header = next(orig_reader)
@@ -91,7 +91,7 @@ def retrieval_and_merger(orig_file, dir_, repaired_dir, repaired_attrib):
 		merged[1::2] = repaired_row
 		repaired_file.write("\t".join(merged)+"\n")
 
-	summary = open("{}/indirect_on_one.summary".format(identifier, repaired_attrib), 'w')
+	summary = open("{}/{}_indirect.summary".format(identifier, repaired_attrib), 'w')
 	f = open(repaired_dir + "/summary.txt", 'r')
 	for line in f:
 		if line.startswith('Ranked Features by accuracy:'):
@@ -549,17 +549,65 @@ def compas2_retrieval_and_merger(orig_train, predictions_file, repaired_file, fe
  			summary.write(ds)
  			summary.close()	
 
+def joint_retrieval_and_merger(orig_file, dir_, repaired_dir, repaired_attrib):
+	repaired_files = []
+
+	identifier = dir_	
+	repair_value = 1.0
+
+	# Access original file
+	f2 = open(orig_file, 'rt')
+	orig_reader = csv.reader(f2)
+
+	# Access audited file
+	f1 = open(repaired_dir + "/{}.audit.test.repaired_{}.data".format(repaired_attrib, repair_value), 'rt')
+	repaired_reader = csv.reader(f1)
+
+	# Open new file for writing
+	repaired_file = open("{}/{}_direct.tab".format(identifier, repaired_attrib), 'w') 
+
+	# Merge Headers
+	orig_header = next(orig_reader)
+	repaired_header = [i+'-no{}'.format(repaired_attrib) for i in next(repaired_reader)]
+	merged = [None]*(len(orig_header)+len(repaired_header))
+	merged[::2] = orig_header
+	merged[1::2] = repaired_header
+	
+	repaired_file.write("\t".join(merged)+"\n")
+	repaired_file.write("d\td\td\td\tHighschool Bachelors Masters\tHighschool Bachelors Masters\t<3 3-6 >6\t<3 3-6 >6\tlow medium high\tlow medium high\td\td\n")
+	repaired_file.write("\t\t\t\t\t\t\t\t\t\tclass\tignore\n")
+
+	# convert to tab separated file, merge and write
+	for orig_row in orig_reader:
+		repaired_row = next(repaired_reader)
+		merged = [None]*(len(orig_row)+len(repaired_row))
+		merged[::2] = orig_row
+		merged[1::2] = repaired_row
+		repaired_file.write("\t".join(merged)+"\n")
+
+	summary = open("{}/joint.summary".format(identifier, repaired_attrib), 'w')
+	f = open(repaired_dir + "/summary.txt", 'r')
+	for line in f:
+		if line.startswith('Ranked Features by accuracy:'):
+			ds = line.split(':')[1][1:]
+ 			summary.write(ds)
+ 			summary.close()
+
+	repaired_file.close()
+	repaired_files.append(repaired_file)
+
 if __name__ == "__main__":
 	#repaired_dir = "./Audit/audits/1487023139.65"
 	#repaired_dir = "./Audit/audits/1487655656.76/"
 	#repaired_dir = "./Audit/audits/1488339786.6" 
 	#repaired_dir = "./Audit/audits/1489282159.55" # direct
-	#repaired_dir = "./Audit/audits/1489282271.25/" # indirect  audits/1490573441.42/
+	repaired_dir = "./Audit/audits/1489282271.25/" # indirect 
 	#repaired_dir = "./Audit/audits/1489762753.74" # sample 
 	#repaired_dir = "./Audit/audits/1490709060.42" # sample dt
 	#repaired_dir = "./Audit/audits/1490573441.42" # indirect_on_one 
 	#repaired_dir = "./Audit/audits/1490562027.25" # adult
 	#repaired_dir = "./Audit/audits/1490582950.82" # adult 
+	#repaired_dir = "./Audit/audits/1492753002.2/" # direct joint
 	#attribs = ["Race", "Gender"]
 	#attribs = ['Feature_A_(i)', 'Feature_B_(2i)', 'Feature_C_(-i)', 'Random_Feature', 'Constant_Feature'] 
 	#attribs = 
@@ -571,24 +619,27 @@ if __name__ == "__main__":
 	#orig_train = "./Data/predictions/sample_j48_original_train_data.csv"
 	#predictions ="./Data/predictions/sample_j48_original_train_data.predictions"
 	#orig_file = "./Audit/audits/1490652783.56/Random_Feature.audit.test.repaired_0.0.data"
-	learner = "j48"
+	#learner = "j48"
 	#orig_train = "./Data/predictions/adult_{}/original_train_data.csv".format(learner)
 	#predictions ="./Data/predictions/adult_{}_original_train_data.predictions".format(learner)
 	#orig_file = "./Audit/audits/1489762753.74/Random_Feature.audit.test.repaired_0.0.data"
 	#repaired_file = "./Data/predictions/relationship_train_{}.data".format(learner)
 	#feature = "relationship"
-	orig_train = "./Data/predictions/compas_{}/original_train_data.csv".format(learner)
-	orig_test = "./Data/predictions/compas_{}/original_test_data.csv".format(learner)
-	predictions ="./Data/predictions/compas_{}/original_train_data.predictions".format(learner)
-	predictions_test ="./Data/predictions/compas_{}/original_test_data.predictions".format(learner)
+	#orig_train = "./Data/predictions/compas_{}/original_train_data.csv".format(learner)
+	#orig_test = "./Data/predictions/compas_{}/original_test_data.csv".format(learner)
+	#predictions ="./Data/predictions/compas_{}/original_train_data.predictions".format(learner)
+	#predictions_test ="./Data/predictions/compas_{}/original_test_data.predictions".format(learner)
 	#orig_file = "./Audit/audits/1489762753.74/Random_Feature.audit.test.repaired_0.0.data"
-	repaired_file = "./Data/predictions/compas_race_{}_data.csv".format(learner)
-	repaired_file_test = "./Data/predictions/compas_race_{}_test.csv".format(learner)
-	feature = "race"
+	#repaired_file = "./Data/predictions/compas_race_{}_data.csv".format(learner)
+	#repaired_file_test = "./Data/predictions/compas_race_{}_test.csv".format(learner)
+	#feature = "race"
 	#dir_ = "./Data"
 	#for i in attribs:
 	#	retrieval_and_merger(orig_file, dir_, repaired_dir, i)
 	#compas2_retrieval_and_merger(orig_train, predictions, repaired_file, feature, learner)
-	compas2_retrieval_and_merger(orig_test, predictions_test, repaired_file_test, feature, learner)
+	#compas2_retrieval_and_merger(orig_test, predictions_test, repaired_file_test, feature, learner)
 	#adult_retrieval_and_merger(orig_file, repaired_dir)
-
+	orig_file = "./Data/bonus_indirect.csv"
+	repaired_attrib = "Gender"
+	dir_ = "./Data"
+	retrieval_and_merger(orig_file, dir_, repaired_dir, repaired_attrib)

@@ -1,0 +1,40 @@
+Label,Rules,Quality,Score
+0,IF priors_count<=3.0 AND age>=50.0 AND race!=African-American AND c_charge_desc!=Grand Theft in the 3rd Degree AND c_charge_desc!=Possession of Cocaine THEN score_text=Low ,0.985294117647,0.7915451895043732
+1,IF priors_count<=2.0 AND age>=37.0 AND priors_count<=1.0 AND age>=49.0 AND c_charge_desc!=Dealing in Stolen Property THEN score_text=Low ,0.967741935484,0.9241982507288631
+2,IF race==Other AND age>=31.0 AND priors_count<=5.0 AND c_charge_desc!=Grand Theft in the 3rd Degree THEN score_text=Low ,0.957446808511,0.7312925170068028
+3,IF age>=35.0 AND race==Caucasian AND c_charge_degree!=F AND priors_count<=4.0 AND sex!=Female THEN score_text=Low ,0.923076923077,0.6929057337220602
+4,IF priors_count<=3.0 AND age_cat==25 - 45 AND race!=African-American AND age>=35.0 AND c_charge_desc!=Driving While License Revoked THEN score_text=Low ,0.893805309735,0.7434402332361516
+5,IF priors_count<=3.0 AND age>=26.0 AND c_charge_degree!=F AND sex==Female AND race!=Caucasian THEN score_text=Low ,0.866666666667,0.6929057337220602
+6,IF juv_fel_count>=1.0 AND c_charge_desc!=Disorderly Conduct AND priors_count>=8.0 AND c_charge_desc!=Felony Driving While Lic Suspd THEN score_text=High ,0.840909090909,0.6321671525753159
+7,IF priors_count<=3.0 AND age_cat!=Less than 25 AND c_charge_degree!=F AND race==Caucasian AND sex!=Female THEN score_text=Low ,0.808510638298,0.33333333333333326
+8,IF c_charge_degree!=F AND age>=38.0 AND priors_count<=3.0 AND c_charge_desc!=Driving License Suspended AND c_charge_desc!=Disorderly Intoxication THEN score_text=Low ,0.765957446809,0.5602526724975705
+9,IF race!=African-American AND race!=Caucasian AND priors_count<=3.0 AND c_charge_degree==F AND age>=24.0 THEN score_text=Low ,0.791666666667,0.9178814382896014
+10,IF race!=Caucasian AND priors_count<=3.0 AND age>=26.0 AND age>=40.0 AND c_charge_degree==F THEN score_text=Low ,0.755102040816,1.0505344995140913
+11,IF c_charge_degree!=F AND priors_count<=2.0 AND age_cat==25 - 45 AND c_charge_desc!=Battery AND priors_count<=1.0 THEN score_text=Low ,0.745098039216,0.20068027210884354
+12,"IF age<=35.0 AND priors_count>=11.0 AND c_charge_degree==F AND c_charge_desc!=arrest case no charge AND c_charge_desc!=Poss 3,4 MDMA (Ecstasy) THEN score_text=High ",0.75,0.5602526724975705
+13,IF age_cat==Greater than 45 AND priors_count<=15.0 AND race==Caucasian AND c_charge_desc!=Grand Theft in the 3rd Degree AND sex!=Female THEN score_text=Low ,0.711538461538,0.38581146744412054
+14,IF priors_count<=3.0 AND sex!=Female AND age>=26.0 AND c_charge_desc==Battery AND age<=35.0 THEN score_text=Low ,0.714285714286,0.8780369290573373
+15,IF race!=Caucasian AND priors_count<=2.0 AND sex==Female AND age>=23.0 AND c_charge_desc!=arrest case no charge THEN score_text=Low ,0.6875,0.7453838678328475
+16,IF priors_count<=6.0 AND age>=29.0 AND race==Caucasian AND age<=42.0 AND sex!=Female THEN score_text=Low ,0.675675675676,1.056851311953353
+17,IF priors_count>=3.0 AND age>=34.0 AND race!=African-American AND age<=53.0 AND c_charge_desc!=Aggravated Assault W/Dead Weap THEN score_text=Medium ,0.659574468085,1.1030126336248787
+18,IF priors_count<=6.0 AND age>=32.0 AND c_charge_degree==F AND priors_count>=3.0 AND sex!=Female THEN score_text=Low ,0.708333333333,0.5140913508260447
+19,IF priors_count>=3.0 AND age_cat==Less than 25 AND c_charge_desc!=Battery AND c_charge_desc!=arrest case no charge AND c_charge_desc!=Burglary Unoccupied Dwelling THEN score_text=High ,0.64406779661,0.2531584062196308
+20,IF race!=African-American AND race!=Caucasian AND priors_count<=7.0 AND age<=28.0 AND c_charge_desc!=Grand Theft in the 3rd Degree THEN score_text=Low ,0.617021276596,0.9703595724003887
+21,IF c_charge_degree==F AND priors_count<=3.0 AND age_cat==25 - 45 AND priors_count<=1.0 AND sex!=Female THEN score_text=Low ,0.62037037037,0.15451895043731778
+22,IF juv_other_count>=1.0 AND c_charge_desc!=Burglary Unoccupied Dwelling AND age_cat!=25 - 45 AND c_charge_desc!=Grand Theft in the 3rd Degree AND c_charge_desc!=Att Burgl Conv Occp THEN score_text=Medium ,0.6,0.467930029154519
+23,IF sex==Female AND age<=30.0 AND race!=African-American AND priors_count<=3.0 AND c_charge_desc!=Driving While License Revoked THEN score_text=Medium ,0.6,0.7453838678328475
+24,IF age_cat==Less than 25 AND age>=22.0 AND priors_count<=2.0 AND age>=24.0 AND c_charge_desc!=Burglary Conveyance Unoccup THEN score_text=Low ,0.613636363636,0.8760932944606414
+25,IF priors_count>=5.0 AND priors_count>=8.0 AND age_cat==25 - 45 AND c_charge_degree==F AND race==African-American THEN score_text=Medium ,0.590163934426,0.379494655004859
+26,IF priors_count>=5.0 AND age<=34.0 AND priors_count>=7.0 AND c_charge_desc!=Battery AND c_charge_desc!=Driving While License Revoked THEN score_text=High ,0.584905660377,0.6127308066083578
+27,IF age_cat==25 - 45 AND priors_count<=3.0 AND age>=26.0 AND c_charge_desc!=arrest case no charge AND priors_count<=2.0 THEN score_text=Low ,0.607142857143,0.5646258503401361
+28,IF c_charge_degree!=F AND priors_count>=6.0 AND race==African-American AND c_charge_desc!=Driving License Suspended AND c_charge_desc!=Resist/Obstruct W/O Violence THEN score_text=Medium ,0.568181818182,0.42759961127308066
+29,IF c_charge_desc!=Battery AND priors_count<=1.0 AND age>=22.0 AND age<=24.0 AND c_charge_desc!=Burglary Conveyance Unoccup THEN score_text=Low ,0.585714285714,0.9241982507288631
+30,IF c_charge_degree==F AND priors_count<=4.0 AND age_cat==25 - 45 AND c_charge_desc!=Grand Theft in the 3rd Degree AND c_charge_desc!=Burglary Unoccupied Dwelling THEN score_text=Medium ,0.533333333333,0.20068027210884354
+31,IF juv_fel_count<=1.0 AND age>=30.0 AND age<=41.0 AND race==African-American AND c_charge_desc!=Susp Drivers Lic 1st Offense THEN score_text=Low ,0.549019607843,1.4941690962099126
+32,IF race==African-American AND age_cat!=Greater than 45 AND priors_count>=4.0 AND priors_count<=6.0 AND c_charge_desc!=Battery THEN score_text=High ,0.577777777778,0.4319727891156463
+33,IF race==African-American AND c_charge_desc!=Driving While License Revoked AND age>=23.0 AND c_charge_desc!=Possession of Cocaine AND priors_count<=11.0 THEN score_text=Medium ,0.563636363636,0.7915451895043732
+34,IF race!=Caucasian AND age_cat==Less than 25 AND c_charge_degree==F AND c_charge_desc!=Resist Officer w/Violence AND c_charge_desc!=Grand Theft in the 3rd Degree THEN score_text=High ,0.510638297872,0.379494655004859
+35,IF c_charge_desc!=Grand Theft in the 3rd Degree AND c_charge_desc!=Battery AND priors_count<=15.0 AND age_cat!=25 - 45 AND c_charge_desc!=Grand Theft (Motor Vehicle) THEN score_text=Low ,0.54,0.2531584062196308
+36,IF c_charge_desc!=Battery AND sex!=Female AND c_charge_desc!=Felony Petit Theft AND juv_other_count<=2.0 AND c_charge_desc!=Crim Use of Personal ID Info THEN score_text=Medium ,0.462962962963,0.46987366375121487
+37,IF c_charge_desc!=Grand Theft in the 3rd Degree AND race!=Other AND age>=20.0 AND race!=Asian THEN score_text=High ,0.409090909091,0.9101068999028182
+38,IF TRUE THEN score_text=Low ,0.567200388161,0.0

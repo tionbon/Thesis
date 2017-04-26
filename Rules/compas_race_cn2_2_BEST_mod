@@ -1,0 +1,53 @@
+ IF race!=African-American AND age\_norace>=53 AND c\_charge\_degree\_norace!=F THEN score\_text=Low & 0.239067055394 & 0.976744186047 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=26 AND race==Other THEN score\_text=Low & 0.239067055394 & 0.943661971831 \\ 
+ IF age\_norace>=32 AND priors\_count\_norace<=1 AND c\_charge\_desc==Driving Under The Influence THEN score\_text=Low & 0.0602526724976 & 0.946428571429 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=53 AND race\_norace==African-American THEN score\_text=Low & 0.0 & 0.939024390244 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=47 AND age\_cat\_norace==Less than 25 THEN score\_text=Low & 0.0 & 0.931034482759 \\ 
+ IF c\_charge\_desc\_norace==Battery AND priors\_count\_norace<=1 AND race==Hispanic THEN score\_text=Low & 0.239067055394 & 0.911504424779 \\ 
+ IF priors\_count\_norace<=1 AND c\_charge\_desc\_norace==Battery AND age\_cat==Greater than 45 THEN score\_text=Low & 0.0121477162293 & 0.914634146341 \\ 
+ IF c\_charge\_desc\_norace==Battery AND priors\_count\_norace<=1 AND age\_norace>=42 THEN score\_text=Low & 0.0 & 0.902777777778 \\ 
+ IF priors\_count>=14.0 AND juv\_misd\_count\_norace>=2 AND race\_norace==African-American THEN score\_text=High & 0.0602526724976 & 0.818181818182 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=42 AND sex\_norace==Female THEN score\_text=Low & 0.0 & 0.886666666667 \\ 
+ IF priors\_count\_norace<=1 AND race!=African-American AND age\_cat\_norace==Greater than 45 THEN score\_text=Low & 0.239067055394 & 0.911483253589 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=26 AND race==Hispanic THEN score\_text=Low & 0.239067055394 & 0.899563318777 \\ 
+ IF priors\_count\_norace>=4 AND priors\_count\_norace>=8 AND age\_norace<=32 THEN score\_text=High & 0.0 & 0.777777777778 \\ 
+ IF priors\_count\_norace<=1 AND race!=African-American AND age\_cat\_norace==Greater than 45 THEN score\_text=Low & 0.239067055394 & 0.911483253589 \\ 
+ IF age\_norace>=26 AND priors\_count<=2.0 AND c\_charge\_desc\_norace==Felony Battery (Dom Strang) THEN score\_text=Low & 0.0602526724976 & 0.875 \\ 
+ IF race\_norace==African-American AND age\_norace<=26 AND juv\_fel\_count>=1.0 THEN score\_text=High & 0.451409135083 & 0.724637681159 \\ 
+ IF priors\_count<=2.0 AND age\_norace>=37 AND race\_norace==African-American THEN score\_text=Low & 0.0602526724976 & 0.880313199105 \\ 
+ IF priors\_count\_norace<=4 AND age\_norace>=32 AND age\_norace>=53 THEN score\_text=Low & 0.0 & 0.887719298246 \\ 
+ IF juv\_misd\_count\_norace>=2 AND priors\_count>=9.0 AND race!=Caucasian THEN score\_text=High & 0.299319727891 & 0.846153846154 \\ 
+ IF priors\_count>=12.0 AND race!=Caucasian AND age\_cat\_norace!=Greater than 45 THEN score\_text=High & 0.299319727891 & 0.770700636943 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=47 AND age\_cat\_norace==Greater than 45 THEN score\_text=Low & 0.0 & 0.886877828054 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=37 AND age\_cat\_norace!=Less than 25 THEN score\_text=Low & 0.0 & 0.831087151842 \\ 
+ IF c\_charge\_desc\_norace!=arrest case no charge AND juv\_misd\_count\_norace>=2 AND age\_norace<=20 THEN score\_text=High & 0.0 & 0.714285714286 \\ 
+ IF priors\_count\_norace<=4 AND c\_charge\_desc\_norace!=Possession of Cocaine AND age\_cat==Greater than 45 THEN score\_text=Low & 0.0121477162293 & 0.830188679245 \\ 
+ IF priors\_count\_norace<=1 AND sex==Female AND age\_cat\_norace==Greater than 45 THEN score\_text=Low & 0.014091350826 & 0.78612716763 \\ 
+ IF age\_cat\_norace==Less than 25 AND age\_norace<=32 AND sex\_norace==Female THEN score\_text=Medium & 0.0 & 0.493243243243 \\ 
+ IF priors\_count<=4.0 AND c\_charge\_desc\_norace==Battery AND age\_cat\_norace==Greater than 45 THEN score\_text=Low & 0.0602526724976 & 0.81684981685 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=20 AND race==Other THEN score\_text=Low & 0.239067055394 & 0.847368421053 \\ 
+ IF priors\_count\_norace<=1 AND race\_norace==African-American AND age\_cat\_norace==Greater than 45 THEN score\_text=Low & 0.0 & 0.761904761905 \\ 
+ IF c\_charge\_desc\_norace!=Battery AND age\_norace>=20 AND age\_norace>=53 THEN score\_text=Medium & 0.0 & 0.153488372093 \\ 
+ IF c\_charge\_desc\_norace!=Felony Battery (Dom Strang) AND age\_norace>=32 AND c\_charge\_degree\_norace!=M THEN score\_text=Medium & 0.0 & 0.220351390922 \\ 
+ IF juv\_misd\_count\_norace>=2 AND priors\_count\_norace>=1 AND sex\_norace!=Female THEN score\_text=High & 0.0 & 0.809523809524 \\ 
+ IF juv\_other\_count\_norace<=1 AND c\_charge\_desc\_norace==DUI Property Damage/Injury AND sex\_norace!=Female THEN score\_text=Low & 0.0 & 0.807692307692 \\ 
+ IF priors\_count\_norace<=1 AND race==Caucasian AND sex\_norace!=Female THEN score\_text=Low & 0.239067055394 & 0.730808597748 \\ 
+ IF priors\_count\_norace>=8 AND age\_norace<=32 AND race==African-American THEN score\_text=High & 0.239067055394 & 0.842105263158 \\ 
+ IF priors\_count\_norace>=8 AND c\_charge\_degree\_norace!=F AND age\_cat\_norace==Greater than 45 THEN score\_text=Medium & 0.0 & 0.434782608696 \\ 
+ IF c\_charge\_desc\_norace!=arrest case no charge AND race==Hispanic AND priors\_count\_norace<=1 THEN score\_text=Low & 0.239067055394 & 0.814814814815 \\ 
+ IF race\_norace==African-American AND age\_norace>=20 AND c\_charge\_degree\_norace==F THEN score\_text=Medium & 0.0 & 0.280133928571 \\ 
+ IF c\_charge\_desc\_norace!=Grand Theft in the 3rd Degree AND age\_norace>=67 AND age<=53.0 THEN score\_text=High & 0.371720116618 & 0.5 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=20 AND sex\_norace==Female THEN score\_text=Medium & 0.0 & 0.285067873303 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=32 AND race==Caucasian THEN score\_text=Low & 0.239067055394 & 0.853731343284 \\ 
+ IF c\_charge\_desc==Battery AND age\_cat\_norace!=Less than 25 THEN score\_text=Low & 0.0602526724976 & 0.756622516556 \\ 
+ IF age\_norace<=37 AND race\_norace==African-American AND priors\_count\_norace>=8 THEN score\_text=High & 0.0 & 0.730158730159 \\ 
+ IF race\_norace==African-American AND c\_charge\_desc\_norace!=Battery AND sex\_norace!=Male THEN score\_text=Medium & 0.0 & 0.309978768577 \\ 
+ IF age\_norace<=32 AND race!=Other AND priors\_count\_norace>=8 THEN score\_text=High & 0.239067055394 & 0.789473684211 \\ 
+ IF age\_norace>=26 AND age\_norace>=32 AND age\_cat\_norace==25 - 45 THEN score\_text=Medium & 0.0 & 0.223926380368 \\ 
+ IF priors\_count\_norace<=1 AND age\_norace>=32 AND age\_cat\_norace!=25 - 45 THEN score\_text=Low & 0.0 & 0.838028169014 \\ 
+ IF race\_norace==African-American AND c\_charge\_desc\_norace!=Possession of Cocaine AND age\_cat\_norace==Less than 25 THEN score\_text=Medium & 0.0 & 0.341370558376 \\ 
+ IF c\_charge\_desc\_norace!=Possession of Cocaine AND priors\_count<=2.0 AND age\_norace>=20 THEN score\_text=Low & 0.0602526724976 & 0.682739059968 \\ 
+ IF c\_charge\_desc\_norace!=Battery AND priors\_count\_norace>=8 AND age\_cat\_norace!=Greater than 45 THEN score\_text=High & 0.0 & 0.692307692308 \\ 
+ IF c\_charge\_desc\_norace!=Possession of Cocaine AND c\_charge\_desc\_norace!=arrest case no charge AND age\_norace<=20 THEN score\_text=Low & 0.0 & 0.371794871795 \\ 
+ IF priors\_count\_norace<=4 AND c\_charge\_desc\_norace!=Grand Theft in the 3rd Degree AND c\_charge\_degree\_norace==F THEN score\_text=Medium & 0.0 & 0.277906438166 \\ 
+ IF TRUE THEN score\_text=Low & 0.0 & 0.54748603352 \\ 

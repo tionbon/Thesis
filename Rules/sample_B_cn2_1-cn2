@@ -1,0 +1,18 @@
+******** ./Data/sample/original.tab ********
+Rules	Score
+IF Feature A (i)>=3000.0 THEN Outcome=B  & 0.49750000000000005 & 0.9996668887408394 
+IF TRUE THEN Outcome=A  & 0.0 & 0.9996668887408394 
+
+
+******** ./Data/sample/Feature_B_(2i).tab ********
+Rules	Score
+IF Feature A (i)-noFeature_B_(2i)>=3200.0 AND Feature A (i)-noFeature_B_(2i)<=3206.0 AND Feature A (i)-noFeature_B_(2i)>=3206.0 THEN Outcome=B  & 0.0 & 0.9655172413793104 
+IF Feature A (i)-noFeature_B_(2i)>=3200.0 AND Feature A (i)-noFeature_B_(2i)<=3217.0 AND Feature A (i)-noFeature_B_(2i)>=3217.0 THEN Outcome=B  & 0.0 & 0.9666666666666667 
+IF Feature A (i)-noFeature_B_(2i)>=3200.0 AND Feature A (i)-noFeature_B_(2i)<=3229.0 AND Feature A (i)-noFeature_B_(2i)>=3229.0 THEN Outcome=B  & 0.0 & 0.9705882352941176 
+IF Feature A (i)-noFeature_B_(2i)>=3200.0 AND Feature A (i)-noFeature_B_(2i)<=3235.0 AND Feature A (i)-noFeature_B_(2i)>=3235.0 THEN Outcome=B  & 0.0 & 0.9393939393939394 
+IF Feature A (i)-noFeature_B_(2i)>=3200.0 AND Feature A (i)-noFeature_B_(2i)<=3240.0 AND Feature A (i)-noFeature_B_(2i)>=3240.0 THEN Outcome=B  & 0.0 & 0.9459459459459459 
+IF Feature A (i)-noFeature_B_(2i)>=3200.0 AND Feature A (i)-noFeature_B_(2i)<=3252.0 AND Feature A (i)-noFeature_B_(2i)>=3252.0 THEN Outcome=B  & 0.0 & 0.975609756097561 
+IF Feature A (i)-noFeature_B_(2i)>=3200.0 AND Feature A (i)-noFeature_B_(2i)<=3258.0 AND Feature A (i)-noFeature_B_(2i)>=3258.0 THEN Outcome=B  & 0.0 & 0.9393939393939394 
+IF TRUE THEN Outcome=B  & 0.0 & 0.5 
+
+
